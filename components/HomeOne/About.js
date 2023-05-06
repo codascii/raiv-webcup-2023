@@ -25,7 +25,7 @@ const About = () => {
                 data-aos-duration="1200"
                 data-aos-delay="200"
               >
-                <span>About Us</span>
+                <span>Rêve ou avenir</span>
                 <h2>
                 Chaque rêve est analyser avec une attention particulière aux besoins de l'utilisateur
                 </h2>
