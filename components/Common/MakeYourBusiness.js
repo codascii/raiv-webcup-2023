@@ -9,26 +9,22 @@ const MakeYourBusiness = () => {
           <div className="row align-items-center">
             <div className="col-lg-6">
               <div className="business-content">
-                <h2>Make Your Business More Competitive And Enduring</h2>
+                <h2>Découvrez pourquoi des milliers de clients satisfaits nous font confiance</h2>
               </div>
 
               <div className="single-business">
                 <i className="flaticon-chip"></i>
-                <h3>AI Will Automate Cybersecurity Improve</h3>
+                <h3>L'IA va automatiser l'amélioration de la cybersécurité</h3>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore. Quis ipsum
-                  suspendisse ultrices gravida suspendisse.
+                Onirix utilise l'IA pour renforcer la sécurité des données en détectant les menaces potentielles et en bloquant les attaques avant qu'elles ne se produisent
                 </p>
               </div>
 
               <div className="single-business">
                 <i className="flaticon-blockchain"></i>
-                <h3>A Community With A Unique Mission</h3>
+                <h3>Une communauté avec une mission unique</h3>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore. Quis ipsum
-                  suspendisse ultrices gravida suspendisse.
+                Rejoignez notre communauté Onirix avec une mission unique : utiliser l'IA pour explorer les rêves et découvrir de nouveaux horizons.
                 </p>
               </div>
 
@@ -51,7 +47,7 @@ const MakeYourBusiness = () => {
                     <h2>
                       <span className="target">95%</span>
                     </h2>
-                    <p>Project Completed</p>
+                    <p>Projet réalisé</p>
                   </div>
                 </div>
 
@@ -65,7 +61,7 @@ const MakeYourBusiness = () => {
                     <h2>
                       <span className="target">90%</span>
                     </h2>
-                    <p>Design</p>
+                    <p>Designe</p>
                   </div>
                 </div>
 
@@ -79,7 +75,7 @@ const MakeYourBusiness = () => {
                     <h2>
                       <span className="target">85%</span>
                     </h2>
-                    <p>Happy Clients</p>
+                    <p>Clients satisfaits</p>
                   </div>
                 </div>
 
@@ -91,9 +87,9 @@ const MakeYourBusiness = () => {
                 >
                   <div className="single-counter">
                     <h2>
-                      <span className="target">80</span>
+                      <span className="target">8024010</span>
                     </h2>
-                    <p>Award Win</p>
+                    <p>Clients</p>
                   </div>
                 </div>
               </div>

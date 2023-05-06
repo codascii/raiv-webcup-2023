@@ -4,33 +4,33 @@ import Link from "next/link";
 const servicesData = [
   {
     iconName: "flaticon-chip",
-    title: "Robotics & Drones",
+    title: "Dans la psychologie",
     shortText:
-      "Lorem consectetur ipsum dolor sit amet, adipiscing elit, do eiusmod tempor incididunt sed.",
+      "Notre intélligence artificielle Pour aider à interpréter les rêves de manière thérapeutique.",
     viewDetails: "/service-details",
     aosDelay: "100",
   },
   {
     iconName: "flaticon-vr",
-    title: "Virtually Reality",
+    title: "La créativité",
     shortText:
-      "Lorem consectetur ipsum dolor sit amet, adipiscing elit, do eiusmod tempor incididunt sed.",
+      "Onirix pourrait être utilisé comme source d'inspiration pour les écrivains, les artistes et les cinéastes.",
     viewDetails: "/service-details",
     aosDelay: "200",
   },
   {
     iconName: "flaticon-blockchain",
-    title: "Blockchain Project",
+    title: "La sécurité",
     shortText:
-      "Lorem consectetur ipsum dolor sit amet, adipiscing elit, do eiusmod tempor incididunt sed.",
+      "L'intelligence articifielle peut être utilisé afin de prévenir des accidents ou des catastrophes naturelles.",
     viewDetails: "/service-details",
     aosDelay: "300",
   },
   {
     iconName: "flaticon-target",
-    title: "Image Processing",
+    title: "En marketing",
     shortText:
-      "Lorem consectetur ipsum dolor sit amet, adipiscing elit, do eiusmod tempor incididunt sed.",
+      "Permettre une meilleure compréhension des préférences et des désirs des consommateurs.",
     viewDetails: "/service-details",
     aosDelay: "400",
   },
@@ -44,9 +44,9 @@ const servicesData = [
   },
   {
     iconName: "flaticon-deep-learning",
-    title: "Machine Learning",
+    title: "La recherche",
     shortText:
-      "Lorem consectetur ipsum dolor sit amet, adipiscing elit, do eiusmod tempor incididunt sed.",
+      "la recherche scientifique pour étudier les processus mentaux impliqués dans la production des rêves.",
     viewDetails: "/service-details",
     aosDelay: "600",
   },
@@ -57,12 +57,10 @@ const Services = () => {
     <section className="offer-area pt-100 pb-70">
       <div className="container">
         <div className="section-title">
-          <span>Services</span>
-          <h2>Our Professional Services For You</h2>
+          <span>Domaine d'application</span>
+          <h2>D'autres domaines d'application pour Onirix</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure
-            architecto quaerat eaque sapiente accusantium ad ut explicabo
-            consequuntur fuga quidem? Sint.
+          En plus de son fonctionnement d'origine pourraient être envisagés afin d'exploiter au mieux les capacités de cette IA, et ainsi répondre à un large éventail de besoins.
           </p>
         </div>
 

@@ -28,7 +28,7 @@ const MainBanner = () => {
 									exactement ce que nos chercheurs ont
 									découverts. Grâce à des années de recherche
 									et de développement, les scientifiques ont
-									développé Onirix, une inteligence
+									développé Onirix, une intelligence
 									artificielle avancée capable d'analyser et
 									de décoder les rêves des utilisateurs pour
 									prédire leur avenir.

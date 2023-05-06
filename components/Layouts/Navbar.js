@@ -136,52 +136,14 @@ const Navbar = () => {
 								</li>
 								<li className="nav-item">
 									<Link
-										href="/onirix"
+										href="/onirix/"
 										className={`nav-link ${
-											currentPath == "/onirix" && "active"
+											currentPath == "/onirix/" &&
+											"active"
 										}`}
 									>
 										Onirix
 									</Link>
-								</li>
-
-								<li className="nav-item">
-									<Link
-										href="/about-1/"
-										className={`nav-link ${
-											currentPath == "/about-1/" &&
-											"active"
-										}`}
-									>
-										About
-										{/* <i className="bx bx-chevron-down"></i> */}
-									</Link>
-
-									<ul className="dropdown-menu">
-										<li className="nav-item">
-											<Link
-												href="/about-1/"
-												className={`nav-link ${
-													currentPath ==
-														"/about-1/" && "active"
-												}`}
-											>
-												About Style One
-											</Link>
-										</li>
-
-										<li className="nav-item">
-											<Link
-												href="/about-2/"
-												className={`nav-link ${
-													currentPath ==
-														"/about-2/" && "active"
-												}`}
-											>
-												About Style Two
-											</Link>
-										</li>
-									</ul>
 								</li>
 
 								{/* <li className="nav-item">
@@ -541,6 +503,44 @@ const Navbar = () => {
 										Prédiction
 										{/* <i className="bx bx-chevron-down"></i> */}
 									</Link>
+								</li>
+
+								<li className="nav-item">
+									<Link
+										href="/about/"
+										className={`nav-link ${
+											currentPath == "/about/" && "active"
+										}`}
+									>
+										À propos de l'Institut
+										{/* <i className="bx bx-chevron-down"></i> */}
+									</Link>
+
+									{/* <ul className="dropdown-menu">
+										<li className="nav-item">
+											<Link
+												href="/about-1/"
+												className={`nav-link ${
+													currentPath ==
+														"/about-1/" && "active"
+												}`}
+											>
+												About Style One
+											</Link>
+										</li>
+
+										<li className="nav-item">
+											<Link
+												href="/about-2/"
+												className={`nav-link ${
+													currentPath ==
+														"/about-2/" && "active"
+												}`}
+											>
+												About Style Two
+											</Link>
+										</li>
+									</ul> */}
 								</li>
 							</ul>
 
