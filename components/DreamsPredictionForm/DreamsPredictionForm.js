@@ -53,8 +53,7 @@ const DreamsPredictionForm = () => {
 			};
 			const response = await axios.post(url, payload, {
 				headers: {
-					Authorization:
-						"Bearer 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",
+					Authorization: `Bearer ${process.env.NEXT_PUBLIC_OPENAPI_TOKEN}`,
 				},
 			});
 			setData(response.data.choices[0].text);
@@ -70,6 +69,32 @@ const DreamsPredictionForm = () => {
 	return (
 		<section className="main-contact-area pb-100 pt-70">
 			<div className="container">
+				<form onSubmit={handleSubmit}>
+					<div className="row">
+						<div className="col-lg-12 col-md-12">
+							<div className="form-group">
+								<textarea
+									name="text"
+									cols="30"
+									rows="6"
+									placeholder="J'ai rêvé de..."
+									className="form-control"
+									value={contact.text}
+									onChange={handleChange}
+									required
+								/>
+							</div>
+						</div>
+						<div className="col-lg-12 col-sm-12">
+							<button
+								type="submit"
+								className="default-btn btn-two"
+							>
+								Envoyer
+							</button>
+						</div>
+					</div>
+				</form>
 				<div className="contact-wrap contact-pages mb-0">
 					<div className="contact-form">
 						<div className="section-title">
@@ -129,7 +154,7 @@ const DreamsPredictionForm = () => {
 											required
 										/>
 									</div>
-								</div> */}
+								</div> 
 								<div className="col-lg-12 col-md-12">
 									<div className="form-group">
 										<textarea
@@ -151,7 +176,7 @@ const DreamsPredictionForm = () => {
 									>
 										Envoyer
 									</button>
-								</div>
+								</div>*/}
 							</div>
 						</form>
 						<div className="mt-20">
