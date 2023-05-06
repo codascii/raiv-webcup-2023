@@ -464,7 +464,7 @@ const Navbar = () => {
 										{/* <i className="bx bx-chevron-down"></i> */}
 									</Link>
 
-									<ul className="dropdown-menu">
+									{/* <ul className="dropdown-menu">
 										<li className="nav-item">
 											<Link
 												href="/contact/"
@@ -489,7 +489,7 @@ const Navbar = () => {
 												Contact Style Two
 											</Link>
 										</li>
-									</ul>
+									</ul> */}
 								</li>
 								{/* <li className="nav-item">
 									<Link
@@ -545,7 +545,10 @@ const Navbar = () => {
 							</ul>
 
 							<div className="others-options">
-								<Link href="/dreams-prediction/" className="default-btn">
+								<Link
+									href="/dreams-prediction/"
+									className="default-btn"
+								>
 									Essayer Onirix{" "}
 									<i className="bx bx-log-in-circle"></i>
 								</Link>
