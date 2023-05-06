@@ -7,7 +7,7 @@ const featuresData = [
     title: "Analyse de rêves",
     shortText:
       "L'institut offre une analyse de rêves personnalisée, dans laquelle Onirix examine les rêves des clients et fournissent des interprétations et des conseils sur leur signification",
-    viewDetails: "/service-details",
+    viewDetails: "/onirix",
     aosDelay: "100",
   },
   {
@@ -15,7 +15,7 @@ const featuresData = [
     title: "Prédiction de l'avenir",
     shortText:
       "Une nouvelle approche pour comprendre la signification des rêves et pour prédire l'avenir, en analysant les descriptions des rêves que fourni les utilisateur.",
-    viewDetails: "/service-details",
+    viewDetails: "/onirix",
     aosDelay: "200",
   },
   {
@@ -23,7 +23,7 @@ const featuresData = [
     title: "Recherche sur les rêves",
     shortText:
       "L'Institut International des Rêves mène des recherches sur les rêves pour découvrir de nouveaux domaines d'exploration dans ce domaine et pour mieux comprendre l'impact des rêves.",
-    viewDetails: "/service-details",
+    viewDetails: "/onirix",
     aosDelay: "300",
   },
 ];
