@@ -11,10 +11,10 @@ export default function CaseStudiesDetails() {
       <Navbar />
 
       <PageBanner
-        pageTitle="Case Studies Details"
+        pageTitle="L’IA générative a déjà des cas d’usages avérés autour de l’expérience client"
         homePageUrl="/"
         homePageText="Home"
-        activePageText="Case Studies Details"
+        activePageText="L’IA générative"
       />
 
       <CaseStudiesDetailsContent />
