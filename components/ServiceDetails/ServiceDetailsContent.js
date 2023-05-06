@@ -17,31 +17,26 @@ const ServiceDetailsContent = () => {
                   />
                 </div>
 
-                <h3>Service Of Warehousing</h3>
+                <h3>Service de stockage</h3>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas
-                  veritatis ducimus rerum sunt dignissimos libero et eum modi!
-                  Consequuntur rem incidunt et ducimus magnam sunt rerum hic
-                  beatae sed obcaecati. Lorem ipsum dolor sit amet consectetur,
-                  adipisicing elit. Laudantium asperiores eos obcaecati nostrum
-                  sed, corporis placeat quasi pariatur id, est iure, minus
-                  quibusdam! Facilis.
+                 
                 </p>
 
                 <p>
-                  Contrary to popular belief, Lorem Ipsum is not simply random
-                  text. It has roots in a piece of classNameical Latin
-                  literature from 45 BC, making it over 2000 years old. Richard
-                  McClintock, a Latin professor at Hampden-Sydney College in
-                  Virginia, looked up one of the more obscure Latin words.
+                Contrairement à la croyance populaire, le Lorem Ipsum n'est pas un simple texte aléatoire.
+                  texte aléatoire. Il trouve son origine dans un ouvrage de littérature latine classique de 45 av.
+                  de 45 av. J.-C., ce qui lui confère plus de 2000 ans d'existence. Richard
+                  McClintock, professeur de latin au Hampden-Sydney College en
+                  Virginie, a recherché l'un des mots latins les plus obscurs.
+                  Traduit avec www.DeepL.com/Translator (version gratuite)
                 </p>
 
                 <p>
-                  There are many variations of passages of Lorem Ipsum
-                  available, but the majority have suffered alteration in some
-                  form, by injected humour, or randomised words which don't look
-                  even slightly believable. If you are going to use a passage of
-                  Lorem, you to be sure there isn't anything.
+                Il existe de nombreuses variantes de passages de Lorem Ipsum
+                  disponibles, mais la majorité d'entre eux ont été altérés d'une manière ou d'une autre, par des
+                  par de l'humour ou des mots choisis au hasard qui n'ont pas l'air
+                  qui n'ont pas l'air crédibles. Si vous devez utiliser un passage de
+                  Lorem, vous devez vous assurer qu'il n'y a rien.
                 </p>
 
                 <div className="car-service-list-wrap">
@@ -60,23 +55,23 @@ const ServiceDetailsContent = () => {
                         <ul>
                           <li>
                             <i className="bx bx-check"></i>
-                            Engine bay cleaned and dressed
+                            Nettoyage et entretien du compartiment moteur
                           </li>
                           <li>
                             <i className="bx bx-check"></i>
-                            Door card panels cleaned
+                            Nettoyage des panneaux de porte
                           </li>
                           <li>
                             <i className="bx bx-check"></i>
-                            Plastic trim enhanced
+                            Garniture en plastique améliorée
                           </li>
                           <li>
                             <i className="bx bx-check"></i>
-                            Paint surface clay barred
+                            Surface de peinture décapée à l'argile
                           </li>
                           <li>
                             <i className="bx bx-check"></i>
-                            Alloy wheel treatment inside and out
+                            Traitement des jantes en alliage à l'intérieur et à l'extérieur
                           </li>
                         </ul>
                       </div>

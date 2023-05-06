@@ -10,10 +10,11 @@ const ServicesStyleOne = () => {
             <div className="col-lg-4 col-sm-6">
               <div className="single-features">
                 <i className="flaticon-cloud-computing-1"></i>
-                <h3>Data Science</h3>
+                <h3>Données Scientifiques</h3>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Mollitia, maxime ipsum praesentium culpa expedita.
+                Les données scientifiques font référence aux informations obtenues à partir de la méthode scientifique.
+                 Elles sont collectées, analysées et interprétées de manière à obtenir des conclusions scientifiques fiables.
+                  Les données scientifiques peuvent être obtenues à partir d'observations directes, de mesures, d'expériences, de simulations et de modélisation.
                 </p>
 
                 <Link href="/service-details" className="read-more-icon">
@@ -25,10 +26,11 @@ const ServicesStyleOne = () => {
             <div className="col-lg-4 col-sm-6">
               <div className="single-features">
                 <i className="flaticon-engineer"></i>
-                <h3>Data Engineer</h3>
+                <h3>Ingénieur en Données</h3>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Mollitia, maxime ipsum praesentium culpa expedita.
+                la maintenance de systèmes de gestion de données volumineuses et complexes. 
+                Les ingénieurs en données utilisent une variété de technologies et d'outils pour collecter, 
+                stocker, traiter et analyser des données à grande échelle, afin d'en extraire des informations utiles pour les entreprises et les organisations.
                 </p>
 
                 <Link href="/service-details" className="read-more-icon">
@@ -40,10 +42,11 @@ const ServicesStyleOne = () => {
             <div className="col-lg-4 col-sm-6">
               <div className="single-features">
                 <i className="flaticon-success"></i>
-                <h3>Facing AI Challenges</h3>
+                <h3> les défis de l'IA</h3>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Mollitia, maxime ipsum praesentium culpa expedita.
+                'IA (intelligence artificielle) offre de nombreuses opportunités et avantages,
+                 mais elle présente également des défis importants qui doivent être 
+                 pris en compte pour assurer son utilisation éthique et responsable. 
                 </p>
 
                 <Link href="/service-details" className="read-more-icon">
@@ -55,10 +58,10 @@ const ServicesStyleOne = () => {
             <div className="col-lg-4 col-sm-6">
               <div className="single-features">
                 <i className="flaticon-technical-support"></i>
-                <h3>Safe Security</h3>
+                <h3>Sécurité</h3>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Mollitia, maxime ipsum praesentium culpa expedita.
+                La sécurité est un sujet crucial dans le monde numérique actuel, 
+                car les systèmes informatiques sont de plus en plus vulnérables aux attaques.
                 </p>
 
                 <Link href="/service-details" className="read-more-icon">
@@ -70,10 +73,9 @@ const ServicesStyleOne = () => {
             <div className="col-lg-4 col-sm-6">
               <div className="single-features">
                 <i className="flaticon-shield"></i>
-                <h3>Technical Support</h3>
+                <h3>Support technique</h3>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Mollitia, maxime ipsum praesentium culpa expedita.
+                Le support technique est un service fourni pour aider les utilisateurs à résoudre des problèmes liés à des produits ou services.
                 </p>
 
                 <Link href="/service-details" className="read-more-icon">
@@ -85,10 +87,10 @@ const ServicesStyleOne = () => {
             <div className="col-lg-4 col-sm-6">
               <div className="single-features">
                 <i className="flaticon-success"></i>
-                <h3>Live Support</h3>
+                <h3>Soutien en direct</h3>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Mollitia, maxime ipsum praesentium culpa expedita.
+                Le soutien en direct est un service fourni pour aider les utilisateurs 
+                en temps réel à résoudre des problèmes ou répondre à des questions.
                 </p>
 
                 <Link href="/service-details" className="read-more-icon">
@@ -100,10 +102,10 @@ const ServicesStyleOne = () => {
             <div className="col-lg-4 col-sm-6">
               <div className="single-features">
                 <i className="flaticon-machine-learning"></i>
-                <h3>Heavy Industry</h3>
+                <h3>l'industrie lourde</h3>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Mollitia, maxime ipsum praesentium culpa expedita.
+                  L'industrie lourde est un secteur de l'industrie qui se caractérise
+                   par la production de biens à grande échelle, généralement de nature physique ou matérielle
                 </p>
 
                 <Link href="/service-details" className="read-more-icon">
@@ -115,10 +117,9 @@ const ServicesStyleOne = () => {
             <div className="col-lg-4 col-sm-6">
               <div className="single-features">
                 <i className="flaticon-artificial-intelligence"></i>
-                <h3>Transportation</h3>
+                <h3>Transport</h3>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Mollitia, maxime ipsum praesentium culpa expedita.
+                Le transport est un secteur clé de l'économie mondiale qui comprend tous les modes de déplacement.
                 </p>
 
                 <Link href="/service-details" className="read-more-icon">
@@ -130,10 +131,11 @@ const ServicesStyleOne = () => {
             <div className="col-lg-4 col-sm-6">
               <div className="single-features">
                 <i className="flaticon-health"></i>
-                <h3>Health Care</h3>
+                <h3>Soins et Santé</h3>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Mollitia, maxime ipsum praesentium culpa expedita.
+                Les soins de santé sont un domaine qui englobe un large éventail de services 
+                et de professions visant à promouvoir la santé,
+                 prévenir les maladies et traiter les patients atteints de maladies ou de blessures
                 </p>
 
                 <Link href="/service-details" className="read-more-icon">

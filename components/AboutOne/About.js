@@ -15,15 +15,13 @@ const About = () => {
 
             <div className="col-lg-6">
               <div className="about-content">
-                <span>About Us</span>
+                <span>À propos de nous</span>
                 <h2>
-                  We Complete Every Project With Extra Care As Customer Need
+                Nous complétons chaque projet avec des soins supplémentaires dont le client a besoin
                 </h2>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Quis ipsum suspendisse ultrices gravida. Risus commodo viverra
-                  maecenas accumsan lacus vel.
+                Analyse de rêves : L'institut offre une analyse de rêves personnalisée, dans laquelle des experts en rêves examinent les rêves des clients et fournissent des interprétations et des conseils sur leur signification.
+
                 </p>
 
                 <div className="row">
@@ -31,15 +29,15 @@ const About = () => {
                     <ul>
                       <li>
                         <i className="flaticon-checked"></i>
-                        Advanced caching
+                        Mise en cache avancée
                       </li>
                       <li>
                         <i className="flaticon-checked"></i>
-                        Unlimited applications
+                        Applications avancées Illimitées
                       </li>
                       <li>
                         <i className="flaticon-checked"></i>
-                        PHP 7 ready transfer
+                        PHP 7  prêt pour le tranfert
                       </li>
                     </ul>
                   </div>
@@ -48,22 +46,22 @@ const About = () => {
                     <ul>
                       <li>
                         <i className="flaticon-checked"></i>
-                        PHP ready serves
+                        PHP prêts à vous servir
                       </li>
                       <li>
                         <i className="flaticon-checked"></i>
-                        24/7 Free extra support
+                        Un Soutien supplémentaire gratuit 24/7
                       </li>
                       <li>
                         <i className="flaticon-checked"></i>
-                        Optimized stack
+                        Pile optimisée
                       </li>
                     </ul>
                   </div>
                 </div>
 
-                <Link href="/about-1" className="default-btn">
-                  Learn More
+                <Link href="/about" className="default-btn">
+                En savoir plus
                 </Link>
               </div>
             </div>

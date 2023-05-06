@@ -119,12 +119,12 @@ const Footer = () => {
                       Services
                     </Link>
                   </li>
-                  <li>
+                  {/* <li>
                     <Link href="/pricing">
                       <i className="right-icon bx bx-chevrons-right"></i>
                       Tarification
                     </Link>
-                  </li>
+                  </li> */}
                   <li>
                     <Link href="/team">
                       <i className="right-icon bx bx-chevrons-right"></i>
@@ -160,7 +160,7 @@ const Footer = () => {
                   <li className="address">
                     <i className="flaticon-call"></i>
                     <span>Téléphones</span>
-                    +882-569-756
+                    +262 269 52 47 85
                   </li>
 
                   <li className="address">
@@ -172,7 +172,7 @@ const Footer = () => {
                   <li className="address">
                     <i className="flaticon-maps-and-flags"></i>
                     <span>Address</span>
-                    123, Raiv Houm Dev, Mamoudzou MAYOTTE 
+                    123 Rue Raiv Houmadev, 97600 Mamoudzou, MAYOTTE 
                   </li>
                 </ul>
               </div>

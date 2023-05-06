@@ -53,12 +53,10 @@ const ContactForm = () => {
     <div className="main-contact-area pb-100">
       <div className="container">
         <div className="section-title">
-          <span>Contact Us</span>
-          <h2>Drop us a message for any query</h2>
+          <span>Nous Concter</span>
+          <h2>Nous sommes disposées à répondre à toutes vos requêtes, vous pouvez déposer votre message ici.</h2>
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque
-            quibusdam deleniti porro praesentium. Aliquam minus quisquam velit
-            in at nam.
+          Nous sommes à votre service.
           </p>
         </div>
 
@@ -136,7 +134,7 @@ const ContactForm = () => {
                     </div>
                     <div className="col-lg-12 col-sm-12">
                       <button type="submit" className="default-btn btn-two">
-                        Send Message
+                        Envoyer votre message
                       </button>
                     </div>
                   </div>
