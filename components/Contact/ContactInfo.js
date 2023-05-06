@@ -9,12 +9,12 @@ const ContactInfo = () => {
             <div className="col-lg-3 col-sm-6">
               <div className="single-contact-info">
                 <i className="bx bx-envelope"></i>
-                <h3>Email Us:</h3>
+                <h3>Envoyez-nous un email:</h3>
                 <p>
-                  <a href="mailto:hello@jumpx.com">hello@jumpx.com</a>
+                  <a href="mailto:hello@jumpx.com">contact@institutinternational.com</a>
                 </p>
                 <p>
-                  <a href="mailto:info@jumpx.com">info@jumpx.com</a>
+                  <a href="mailto:info@jumpx.com">assistance@institutinternational.com</a>
                 </p>
               </div>
             </div>
@@ -22,12 +22,12 @@ const ContactInfo = () => {
             <div className="col-lg-3 col-sm-6">
               <div className="single-contact-info">
                 <i className="bx bx-phone-call"></i>
-                <h3>Call Us:</h3>
+                <h3>Appelez-nous :</h3>
                 <p>
-                  Tel. + <a href="tel:12318005678990">(123) 1800-567-8990</a>
+                  Tel. + <a href="tel:12318005678990">(262) 269  52 47 85</a>
                 </p>
                 <p>
-                  Tel. + <a href="tel:12415235679874">(124) 1523-567-9874</a>
+                  Tel. + <a href="tel:12415235679874">(262) 269 52 48 86</a>
                 </p>
               </div>
             </div>
@@ -35,16 +35,16 @@ const ContactInfo = () => {
             <div className="col-lg-3 col-sm-6">
               <div className="single-contact-info">
                 <i className="bx bx-location-plus"></i>
-                <h3>London</h3>
-                <p>123, Western Road, Melbourne Australia</p>
+                <h3>MAYOTTE</h3>
+                <p>123, rue des étoiles 97600 Mamoudzou, MAYOTTE</p>
               </div>
             </div>
 
             <div className="col-lg-3 col-sm-6">
               <div className="single-contact-info">
                 <i className="bx bx-support"></i>
-                <h3>Live Chat</h3>
-                <p>live chat all the time with our company 24/7</p>
+                <h3>Chat en direct</h3>
+                <p>chat en direct avec notre entreprise 24h/24 et 7j/7</p>
               </div>
             </div>
           </div>

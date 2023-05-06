@@ -53,7 +53,7 @@ const ContactForm = () => {
 		<div className="main-contact-area pb-100">
 			<div className="container">
 				<div className="section-title">
-					<span>Nous Concter</span>
+					<span>Nous Contacter</span>
 					<h2>
 						Nous sommes disposées à répondre à toutes vos requêtes.
 						Déposez votre message ici
@@ -72,7 +72,7 @@ const ContactForm = () => {
 												<input
 													type="text"
 													name="name"
-													placeholder="Name"
+													placeholder="Nom"
 													className="form-control"
 													value={contact.name}
 													onChange={handleChange}
@@ -98,7 +98,7 @@ const ContactForm = () => {
 												<input
 													type="text"
 													name="number"
-													placeholder="Phone number"
+													placeholder="Numéro de téléphone"
 													className="form-control"
 													value={contact.number}
 													onChange={handleChange}
@@ -111,7 +111,7 @@ const ContactForm = () => {
 												<input
 													type="text"
 													name="subject"
-													placeholder="Subject"
+													placeholder="Objet"
 													className="form-control"
 													value={contact.subject}
 													onChange={handleChange}
@@ -125,7 +125,7 @@ const ContactForm = () => {
 													name="text"
 													cols="30"
 													rows="6"
-													placeholder="Write your message..."
+													placeholder="Rédigez votre message..."
 													className="form-control"
 													value={contact.text}
 													onChange={handleChange}

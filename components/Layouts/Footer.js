@@ -166,7 +166,7 @@ const Footer = () => {
                   <li className="address">
                     <i className="flaticon-envelope"></i>
                     <span>Adress mail</span>
-                    contac@institutinternational.com
+                    contact@institutinternational.com
                   </li>
 
                   <li className="address">
