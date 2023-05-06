@@ -22,7 +22,7 @@ export default function DreamsPrediction() {
 
 			<DreamsPredictionForm />
 
-			{/* <Footer /> */}
+			<Footer />
 		</>
 	);
 }

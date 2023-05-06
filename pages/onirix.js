@@ -14,35 +14,35 @@ import News from "../components/Common/News";
 import Footer from "../components/Layouts/Footer";
 
 export default function Index3() {
-  return (
-    <>
-      <Navbar />
+	return (
+		<>
+			<Navbar />
 
-      <MainBanner />
+			<MainBanner />
 
-      <div className="pt-100">
-        <PartnerSlider />
-      </div>
+			<div className="pt-100">
+				<PartnerSlider />
+			</div>
 
-      <About />
+			<About />
 
-      <WhyChooseUs />
+			<WhyChooseUs />
 
-      <Services />
+			<Services />
 
-      <MakeYourBusiness />
+			<MakeYourBusiness />
 
-      <WhatWeOffer />
+			{/* <WhatWeOffer /> */}
 
-      <CaseStudies />
+			<CaseStudies />
 
-      <Testimonials />
+			{/* <Testimonials /> */}
 
-      <Faq />
+			<Faq />
 
-      <News />
+			{/* <News /> */}
 
-      <Footer />
-    </>
-  );
+			<Footer />
+		</>
+	);
 }
