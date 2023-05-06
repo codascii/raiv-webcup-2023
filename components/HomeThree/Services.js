@@ -58,11 +58,9 @@ const Services = () => {
       <div className="container">
         <div className="section-title">
           <span>Services</span>
-          <h2>Our Professional Services For You</h2>
+          <h2>Technologies de pointe utilisées dans la conception de l'Intelligence Artificielle Onirix</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure
-            architecto quaerat eaque sapiente accusantium ad ut explicabo
-            consequuntur fuga quidem? Sint.
+          La conception de l'Intelligence Artificielle Onirix utilise des technologies de pointe telles que le machine learning, la blockchain et le traitement d'image pour fournir une expérience utilisateur avancée. Ces technologies permettent à Onirix d'analyser et de comprendre les rêves de manière précise et fiable, tout en garantissant la sécurité et la confidentialité des données grâce à la blockchain. Le traitement d'image permet également d'améliorer la précision de l'analyse des rêves en identifiant les éléments clés des images associées aux rêves.
           </p>
         </div>
 

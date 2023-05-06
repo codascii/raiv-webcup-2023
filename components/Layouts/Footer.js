@@ -20,10 +20,7 @@ const Footer = () => {
                 </Link>
 
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Quaerat molestiae corporis, magni maxime perferendis ducimus
-                  totam officiis sit exercitationem sed odio debitis minus
-                  cumque dolores dicta.
+                L'Institut International des Rêves est une initiative ambitieuse visant à explorer et à comprendre le monde des rêves. Le but de l'institut est de rassembler des chercheurs, des experts et des personnes intéressées par les rêves du monde entier pour étudier la signification et l'importance des rêves dans nos vies.
                 </p>
 
                 <ul className="social-icon">
@@ -75,25 +72,25 @@ const Footer = () => {
                   <li>
                     <Link href="/service-details">
                       <i className="right-icon bx bx-chevrons-right"></i>
-                      Desktop Application
+                      Application de Bureau 
                     </Link>
                   </li>
                   <li>
                     <Link href="/service-details">
                       <i className="right-icon bx bx-chevrons-right"></i>
-                      Mobile Application
+                      Application Mobile
                     </Link>
                   </li>
                   <li>
                     <Link href="/service-details">
                       <i className="right-icon bx bx-chevrons-right"></i>
-                      Product Engineering
+                      L'ingénierie de Production
                     </Link>
                   </li>
                   <li>
                     <Link href="/service-details">
                       <i className="right-icon bx bx-chevrons-right"></i>
-                      Machine Learning
+                      Apprentissage Automatique
                     </Link>
                   </li>
                 </ul>
@@ -107,13 +104,13 @@ const Footer = () => {
                 data-aos-duration="1200"
                 data-aos-delay="400"
               >
-                <h3>Important Links</h3>
+                <h3>Liens importants</h3>
 
                 <ul>
                   <li>
                     <Link href="/about-1">
                       <i className="right-icon bx bx-chevrons-right"></i>
-                      About Us
+                      A propos de nous
                     </Link>
                   </li>
                   <li>
@@ -125,13 +122,13 @@ const Footer = () => {
                   <li>
                     <Link href="/pricing">
                       <i className="right-icon bx bx-chevrons-right"></i>
-                      Pricing
+                      Tarification
                     </Link>
                   </li>
                   <li>
                     <Link href="/team">
                       <i className="right-icon bx bx-chevrons-right"></i>
-                      Team
+                      Equipe
                     </Link>
                   </li>
                   <li>
@@ -143,7 +140,7 @@ const Footer = () => {
                   <li>
                     <Link href="/testimonials">
                       <i className="right-icon bx bx-chevrons-right"></i>
-                      Testimonials
+                      Témoignages
                     </Link>
                   </li>
                 </ul>
@@ -157,25 +154,25 @@ const Footer = () => {
                 data-aos-duration="1200"
                 data-aos-delay="500"
               >
-                <h3>Information</h3>
+                <h3>Informations</h3>
 
                 <ul className="information">
                   <li className="address">
                     <i className="flaticon-call"></i>
-                    <span>Phone</span>
+                    <span>Téléphones</span>
                     +882-569-756
                   </li>
 
                   <li className="address">
                     <i className="flaticon-envelope"></i>
-                    <span>Email</span>
-                    hello@jumpx.com
+                    <span>Adress mail</span>
+                    contac@institutinternational.com
                   </li>
 
                   <li className="address">
                     <i className="flaticon-maps-and-flags"></i>
                     <span>Address</span>
-                    123, Western Road, Melbourne Australia
+                    123, Raiv Houm Dev, Mamoudzou MAYOTTE 
                   </li>
                 </ul>
               </div>
@@ -195,7 +192,7 @@ const Footer = () => {
           <div className="row align-items-center">
             <div className="col-lg-4">
               <div className="copy-right">
-                <p>Copyright &copy; {currentYear} Jumpx. All Rights Reserved</p>
+                <p>Droit d'auteur &copy; {currentYear} Tous les droits sont Réservés</p>
               </div>
             </div>
 
@@ -206,7 +203,7 @@ const Footer = () => {
                     <Link href="/terms-conditions">Terms & Conditions</Link>
                   </li>
                   <li>
-                    <Link href="/privacy-policy">Privacy Policy</Link>
+                    <Link href="/privacy-policy">Politique de confidentialite</Link>
                   </li>
                 </ul>
               </div>
@@ -216,8 +213,8 @@ const Footer = () => {
               <div className="designed">
                 <p>
                   Designed By <i className="bx bx-heart"></i>{" "}
-                  <a href="https://envytheme.com/" target="_blank">
-                    EnvyTheme
+                  <a href="https://raivnumerique.mayotte.webcup.hodi.host/" target="_blank">
+                    RAIV & HOUMADEV
                   </a>
                 </p>
               </div>
