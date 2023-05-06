@@ -545,7 +545,10 @@ const Navbar = () => {
 							</ul>
 
 							<div className="others-options">
-								<Link href="/dreams-prediction/" className="default-btn">
+								<Link
+									href="/dreams-prediction/"
+									className="default-btn"
+								>
 									Essayer Onirix{" "}
 									<i className="bx bx-log-in-circle"></i>
 								</Link>

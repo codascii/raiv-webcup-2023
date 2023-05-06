@@ -71,7 +71,7 @@ const ContactForm = () => {
                         <input
                           type="text"
                           name="name"
-                          placeholder="Nom"
+                          placeholder="Name"
                           className="form-control"
                           value={contact.name}
                           onChange={handleChange}
@@ -97,7 +97,7 @@ const ContactForm = () => {
                         <input
                           type="text"
                           name="number"
-                          placeholder="Numéro de téléphone"
+                          placeholder="Phone number"
                           className="form-control"
                           value={contact.number}
                           onChange={handleChange}
@@ -109,7 +109,7 @@ const ContactForm = () => {
                       <div className="form-group">
                         <input
                           type="text"
-                          name="Sujet"
+                          name="subject"
                           placeholder="Subject"
                           className="form-control"
                           value={contact.subject}
@@ -124,7 +124,7 @@ const ContactForm = () => {
                           name="text"
                           cols="30"
                           rows="6"
-                          placeholder="Rédigez votre message..."
+                          placeholder="Write your message..."
                           className="form-control"
                           value={contact.text}
                           onChange={handleChange}
