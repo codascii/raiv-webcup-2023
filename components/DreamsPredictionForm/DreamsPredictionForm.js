@@ -159,8 +159,15 @@ const DreamsPredictionForm = () => {
 								"Onirix : prédiction en cours..."
 							) : (
 								<>
-									<h6>Voici la prédiction de votre rêve :</h6>
-									<p>{data}</p>
+									{data && (
+										<>
+											<h6>
+												Voici la prédiction de votre
+												rêve :
+											</h6>
+											<p>{data}</p>
+										</>
+									)}
 								</>
 							)}
 						</div>
