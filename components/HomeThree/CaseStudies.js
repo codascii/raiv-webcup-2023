@@ -9,8 +9,8 @@ const CaseStudies = () => {
       <section className="case-area pb-100">
         <div className="container">
           <div className="section-title">
-            <span>Case</span>
-            <h2>Our Recent Case Studies</h2>
+            <span>Etudes</span>
+            <h2>Nos études de cas récentes</h2>
           </div>
 
           <Swiper
@@ -53,7 +53,7 @@ const CaseStudies = () => {
 
                 <h3>
                   <Link href="/case-studies-details">
-                    Cognitive Architectures
+                  Architectures cognitives
                   </Link>
                 </h3>
               </div>
