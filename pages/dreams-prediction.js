@@ -5,7 +5,6 @@ import ContactInfo from "../components/Contact/ContactInfo";
 import ContactFormStyleTwo from "../components/Contact/ContactFormStyleTwo";
 import Footer from "../components/Layouts/Footer";
 import DreamsPredictionForm from "../components/DreamsPredictionForm/DreamsPredictionForm";
-import DreamsPredictionContainer from "../components/DreamsPredictionForm/DreamsPredictionContainer";
 
 export default function DreamsPrediction() {
 	return (

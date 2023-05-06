@@ -68,12 +68,12 @@ const Navbar = () => {
 											currentPath == "/" && "active"
 										}`}
 									>
-										Home{" "}
-										<i className="bx bx-chevron-down"></i>
+										Accueil
+										{/* <i className="bx bx-chevron-down"></i> */}
 									</Link>
 
-									<ul className="dropdown-menu">
-										<li className="nav-item">
+									{/*<ul className="dropdown-menu">
+									<li className="nav-item">
 											<Link
 												href="/"
 												className={`nav-link ${
@@ -107,9 +107,9 @@ const Navbar = () => {
 											>
 												Home Three
 											</Link>
-										</li>
+										</li> */}
 
-										<li className="nav-item">
+									{/* <li className="nav-item">
 											<Link
 												href="/index-4/"
 												className={`nav-link ${
@@ -132,7 +132,17 @@ const Navbar = () => {
 												Home Five
 											</Link>
 										</li>
-									</ul>
+									</ul> */}
+								</li>
+								<li className="nav-item">
+									<Link
+										href="/onirix"
+										className={`nav-link ${
+											currentPath == "/onirix" && "active"
+										}`}
+									>
+										Onirix
+									</Link>
 								</li>
 
 								<li className="nav-item">
@@ -143,8 +153,8 @@ const Navbar = () => {
 											"active"
 										}`}
 									>
-										About{" "}
-										<i className="bx bx-chevron-down"></i>
+										About
+										{/* <i className="bx bx-chevron-down"></i> */}
 									</Link>
 
 									<ul className="dropdown-menu">
@@ -174,7 +184,7 @@ const Navbar = () => {
 									</ul>
 								</li>
 
-								<li className="nav-item">
+								{/* <li className="nav-item">
 									<Link
 										href="/services/"
 										className={`nav-link ${
@@ -251,9 +261,9 @@ const Navbar = () => {
 											</Link>
 										</li>
 									</ul>
-								</li>
+								</li> */}
 
-								<li className="nav-item">
+								{/* <li className="nav-item">
 									<Link
 										href="#"
 										onClick={(e) => e.preventDefault()}
@@ -427,9 +437,9 @@ const Navbar = () => {
 											</Link>
 										</li>
 									</ul>
-								</li>
+								</li> */}
 
-								<li className="nav-item">
+								{/* <li className="nav-item">
 									<Link
 										href="#"
 										onClick={(e) => e.preventDefault()}
@@ -478,7 +488,7 @@ const Navbar = () => {
 											</Link>
 										</li>
 									</ul>
-								</li>
+								</li> */}
 
 								<li className="nav-item">
 									<Link
@@ -488,8 +498,8 @@ const Navbar = () => {
 											"active"
 										}`}
 									>
-										Contact{" "}
-										<i className="bx bx-chevron-down"></i>
+										Contact
+										{/* <i className="bx bx-chevron-down"></i> */}
 									</Link>
 
 									<ul className="dropdown-menu">
@@ -528,8 +538,8 @@ const Navbar = () => {
 											"active"
 										}`}
 									>
-										Prédiction{" "}
-										<i className="bx bx-chevron-down"></i>
+										Prédiction
+										{/* <i className="bx bx-chevron-down"></i> */}
 									</Link>
 								</li>
 							</ul>

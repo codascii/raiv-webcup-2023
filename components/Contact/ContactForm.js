@@ -147,7 +147,7 @@ const ContactForm = () => {
 
           <div className="col-lg-6 col-md-12">
             <div className="contact-img">
-              <img src="/images/contact-img.png" alt="Image" />
+              <img src="/images/-img.png" alt="Image" />
             </div>
           </div>
         </div>
