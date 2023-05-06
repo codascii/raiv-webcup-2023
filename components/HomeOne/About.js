@@ -27,13 +27,10 @@ const About = () => {
               >
                 <span>About Us</span>
                 <h2>
-                  We Complete Every Project With Extra Care As Customer Need
+                Chaque rêve est analyser avec une attention particulière aux besoins de l'utilisateur
                 </h2>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Quis ipsum suspendisse ultrices gravida. Risus commodo viverra
-                  maecenas accumsan lacus vel.
+                Chez l'Institut International des Rêves, nous considérons que chaque rêve est unique et que son interprétation doit être personnalisée en fonction des besoins et des attentes de chaque utilisateur
                 </p>
 
                 <div className="row">
@@ -41,15 +38,15 @@ const About = () => {
                     <ul>
                       <li>
                         <i className="flaticon-checked"></i>
-                        Advanced caching
+                        Analyse approfondie
                       </li>
                       <li>
                         <i className="flaticon-checked"></i>
-                        Unlimited applications
+                        Réponses détaillées
                       </li>
                       <li>
                         <i className="flaticon-checked"></i>
-                        PHP 7 ready transfer
+                        Interprétation et explication
                       </li>
                     </ul>
                   </div>
@@ -58,22 +55,22 @@ const About = () => {
                     <ul>
                       <li>
                         <i className="flaticon-checked"></i>
-                        PHP ready serves
+                        Prédiction réaliste
                       </li>
                       <li>
                         <i className="flaticon-checked"></i>
-                        24/7 Free extra support
+                        Pas de stockage des données personnelles
                       </li>
                       <li>
                         <i className="flaticon-checked"></i>
-                        Optimized stack
+                        Service gratuit
                       </li>
                     </ul>
                   </div>
                 </div>
 
-                <Link href="/about-1" className="default-btn">
-                  Learn More
+                <Link href="/about-2" className="default-btn">
+                  En savoir plus
                 </Link>
               </div>
             </div>
