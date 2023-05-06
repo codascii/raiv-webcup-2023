@@ -54,7 +54,7 @@ const DreamsPredictionForm = () => {
 			const response = await axios.post(url, payload, {
 				headers: {
 					Authorization:
-						"Bearer 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",
+						"Bearer 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",
 				},
 			});
 			setData(response.data.choices[0].text);
