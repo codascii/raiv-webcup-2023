@@ -11,29 +11,29 @@ import News from "../components/Common/News";
 import Footer from "../components/Layouts/Footer";
 
 export default function Index() {
-  return (
-    <>
-      <Navbar />
+	return (
+		<>
+			<Navbar />
 
-      <MainBanner />
+			<MainBanner />
 
-      <Features />
+			<Features />
 
-      <About />
+			<About />
 
-      <WhyChooseUs />
+			{/* <WhyChooseUs /> */}
 
-      <Services />
+			<Services />
 
-      <MakeYourBusiness />
+			{/* <MakeYourBusiness /> */}
 
-      <WhatWeOffer />
+			<WhatWeOffer />
 
-      <Testimonials />
+			<Testimonials />
 
-      <News />
+			{/* <News /> */}
 
-      <Footer />
-    </>
-  );
+			<Footer />
+		</>
+	);
 }
