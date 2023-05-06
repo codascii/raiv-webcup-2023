@@ -69,7 +69,7 @@ const About = () => {
                   </div>
                 </div>
 
-                <Link href="/about-2" className="default-btn">
+                <Link href="/onirix" className="default-btn">
                   En savoir plus
                 </Link>
               </div>
