@@ -23,7 +23,7 @@ const MainBanner = () => {
                   data-aos-delay="200"
                 >
                   Et si vos rêves ne se limitaient pas à être de simples illusions de l'esprit ? Et s'ils étaient capables
-de prédire l'avenir ? C'est exactement ce que nos chercheurs grâce à la création de l'IA ONIRIX. 
+de prédire l'avenir ? C'est exactement ce que nos chercheurs on reussi grâce à la création de l'IA ONIRIX. 
                 </p>
 
                 <div 
@@ -36,8 +36,8 @@ de prédire l'avenir ? C'est exactement ce que nos chercheurs grâce à la cr�
                     Essayez ONIRIX
                   </Link>
 
-                  <Link href="/contact" className="default-btn">
-                    Contact Us
+                  <Link href="/about-1" className="default-btn">
+                    Apropos
                   </Link>
                 </div>
               </div>
