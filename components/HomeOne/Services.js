@@ -36,9 +36,9 @@ const servicesData = [
   },
   {
     iconName: "flaticon-choice",
-    title: "Order Management",
+    title: "Les statistique",
     shortText:
-      "Lorem consectetur ipsum dolor sit amet, adipiscing elit, do eiusmod tempor incididunt sed.",
+      "Notre intelligence artificielle permet d'alimenter des bases de données afin de réaliser des statistiques sur les rêves.",
     viewDetails: "/service-details",
     aosDelay: "500",
   },
