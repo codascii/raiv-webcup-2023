@@ -13,8 +13,8 @@ const Faq = () => {
 			<section className="faq-area pt-100 pb-100">
 				<div className="container">
 					<div className="section-title">
-						<span>FAQ,s</span>
-						<h2>Frequently Asked Questions</h2>
+						<span>FAQ</span>
+						<h2>Questions fréquentes</h2>
 					</div>
 
 					<div className="row align-items-center">
@@ -24,21 +24,13 @@ const Faq = () => {
 									<AccordionItem uuid="a">
 										<AccordionItemHeading>
 											<AccordionItemButton>
-												What Are The Business Advisory
-												Company?
+											Comment fonctionne Onirix pour décrypter les rêves ?
 											</AccordionItemButton>
 										</AccordionItemHeading>
 
 										<AccordionItemPanel>
 											<p>
-												Lorem ipsum dolor sit amet,
-												consectetur adipiscing elit, sed
-												do eiusmod tempor incididunt ut
-												labore et dolore magna aliqua.
-												Quis ipsum suspendisse ultrices
-												gravida. Risus commodo viverra
-												maecenas accumsan lacus vel
-												facilisis.
+											Onirix utilise une combinaison de techniques d'apprentissage automatique et de traitement du langage naturel pour analyser les descriptions de rêves et détecter des modèles et des tendances.
 											</p>
 										</AccordionItemPanel>
 									</AccordionItem>
@@ -46,21 +38,13 @@ const Faq = () => {
 									<AccordionItem uuid="b">
 										<AccordionItemHeading>
 											<AccordionItemButton>
-												Research Is What Makes An
-												Effective Business Plan?
+											Est-ce que mes données sont sécurisées avec Onirix ?
 											</AccordionItemButton>
 										</AccordionItemHeading>
 
 										<AccordionItemPanel>
 											<p>
-												Lorem ipsum dolor sit amet,
-												consectetur adipiscing elit, sed
-												do eiusmod tempor incididunt ut
-												labore et dolore magna aliqua.
-												Quis ipsum suspendisse ultrices
-												gravida. Risus commodo viverra
-												maecenas accumsan lacus vel
-												facilisis.
+											Oui, Onirix utilise des mesures de sécurité de pointe, y compris la blockchain, pour protéger les données de ses utilisateurs contre les menaces potentielles.
 											</p>
 										</AccordionItemPanel>
 									</AccordionItem>
@@ -68,20 +52,12 @@ const Faq = () => {
 									<AccordionItem uuid="c">
 										<AccordionItemHeading>
 											<AccordionItemButton>
-												How Achieving Small Business
-												Success?
+											Quel est le niveau de précision des analyses de rêve fournies par Onirix ?
 											</AccordionItemButton>
 										</AccordionItemHeading>
 										<AccordionItemPanel>
 											<p>
-												Lorem ipsum dolor sit amet,
-												consectetur adipiscing elit, sed
-												do eiusmod tempor incididunt ut
-												labore et dolore magna aliqua.
-												Quis ipsum suspendisse ultrices
-												gravida. Risus commodo viverra
-												maecenas accumsan lacus vel
-												facilisis.
+											Onirix fournit des analyses de rêve précises et fiables grâce à son utilisation de technologies avancées de l'IA et de l'apprentissage automatique.
 											</p>
 										</AccordionItemPanel>
 									</AccordionItem>
@@ -89,20 +65,12 @@ const Faq = () => {
 									<AccordionItem uuid="d">
 										<AccordionItemHeading>
 											<AccordionItemButton>
-												Why Business Planing Is
-												Important?
+											Combien coûte l'utilisation d'Onirix ?
 											</AccordionItemButton>
 										</AccordionItemHeading>
 										<AccordionItemPanel>
 											<p>
-												Lorem ipsum dolor sit amet,
-												consectetur adipiscing elit, sed
-												do eiusmod tempor incididunt ut
-												labore et dolore magna aliqua.
-												Quis ipsum suspendisse ultrices
-												gravida. Risus commodo viverra
-												maecenas accumsan lacus vel
-												facilisis.
+											Les tarifs pour l'utilisation d'Onirix dépendent du plan choisi, mais nous proposons des prix abordables pour permettre à tous de bénéficier des avantages de notre technologie avancée.
 											</p>
 										</AccordionItemPanel>
 									</AccordionItem>
@@ -110,19 +78,12 @@ const Faq = () => {
 									<AccordionItem uuid="e">
 										<AccordionItemHeading>
 											<AccordionItemButton>
-												How Do You Startup?
+											Comment puis-je intégrer Onirix dans mon entreprise ou mon site web ?
 											</AccordionItemButton>
 										</AccordionItemHeading>
 										<AccordionItemPanel>
 											<p>
-												Lorem ipsum dolor sit amet,
-												consectetur adipiscing elit, sed
-												do eiusmod tempor incididunt ut
-												labore et dolore magna aliqua.
-												Quis ipsum suspendisse ultrices
-												gravida. Risus commodo viverra
-												maecenas accumsan lacus vel
-												facilisis.
+											Contactez notre équipe commerciale pour discuter des options d'intégration et des solutions sur mesure pour répondre à vos besoins spécifiques.
 											</p>
 										</AccordionItemPanel>
 									</AccordionItem>
