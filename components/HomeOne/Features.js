@@ -6,7 +6,7 @@ const featuresData = [
     iconName: "bx bx-shopping-bag",
     title: "Analyse de rêves",
     shortText:
-      "L'institut offre une analyse de rêves personnalisée, dans laquelle ORNIX examine les rêves des clients et fournissent des interprétations et des conseils sur leur signification",
+      "L'institut offre une analyse de rêves personnalisée, dans laquelle Onirix examine les rêves des clients et fournissent des interprétations et des conseils sur leur signification",
     viewDetails: "/service-details",
     aosDelay: "100",
   },

@@ -54,7 +54,7 @@ const ContactForm = () => {
       <div className="container">
         <div className="section-title">
           <span>Nous Concter</span>
-          <h2>Nous sommes disposées à répondre à toutes vos requêtes, vous pouvez déposer votre message ici.</h2>
+          <h2>Nous sommes disposées à répondre à toutes vos requêtes. Déposez votre message ici</h2>
           <p>
           Nous sommes à votre service.
           </p>
