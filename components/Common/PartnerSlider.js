@@ -74,10 +74,12 @@ const PartnerSlider = () => {
             }}
             modules={[Navigation, Autoplay]}
             className="brand-slide text-center"
+            id="swapper-parthner"
           >
             {partnerData &&
               partnerData.map((value, i) => (
-                <SwiperSlide key={i}>
+                <SwiperSlide key={i} 
+                >
                   <a href={value.url} target="_blank">
                     <img src={value.image} alt="Image" />
                   </a>

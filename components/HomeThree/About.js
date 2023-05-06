@@ -25,7 +25,7 @@ const About = () => {
                 data-aos-duration="1200"
                 data-aos-delay="500"
               >
-                <span>About Us</span>
+                <span>C'est quoi Onirix ?</span>
                 <h2>
                 ONIRIX : L'IA avancée qui décrypte le sens caché de vos rêves pour prédire l'avenir
                 </h2>
@@ -69,8 +69,8 @@ const About = () => {
                   </div>
                 </div>
 
-                <Link href="/about-1" className="default-btn">
-                  Learn More
+                <Link href="/dreams-prediction" className="default-btn">
+                  Essayer Onirix
                 </Link>
               </div>
             </div>
