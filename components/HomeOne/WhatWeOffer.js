@@ -26,13 +26,10 @@ const WhatWeOffer = () => {
 			<section className="industries-area pb-100 mt-100">
 				<div className="container">
 					<div className="section-title">
-						<span>What We Offer</span>
-						<h2>Industries We Serve</h2>
+						<span>les avancées</span>
+						<h2>Nos recherches scientifiques</h2>
 						<p>
-							Lorem ipsum dolor sit amet consectetur adipisicing
-							elit. Molestias eos ea obcaecati et similique
-							incidunt animi, sed, quos officiis placeat. Id ipsa
-							molestias.
+						Notre équipe de scientifiques a mené des recherches approfondies dans différents domaines, pour développer Onirix, une IA sophistiquée et complète.
 						</p>
 					</div>
 
@@ -49,8 +46,8 @@ const WhatWeOffer = () => {
 									>
 										<span>
 											<i className="flaticon-machine-learning"></i>
-											<h3>Heavy Industry</h3>
-											<p>All kind of industry</p>
+											<h3>La neurologie</h3>
+											{/* <p>All kind of industry</p> */}
 										</span>
 									</li>
 
@@ -61,8 +58,8 @@ const WhatWeOffer = () => {
 									>
 										<span>
 											<i className="flaticon-artificial-intelligence"></i>
-											<h3>Transportation</h3>
-											<p>All kind of industry</p>
+											<h3>La psychologie humaine</h3>
+											{/* <p>All kind of industry</p> */}
 										</span>
 									</li>
 
@@ -73,8 +70,8 @@ const WhatWeOffer = () => {
 									>
 										<span>
 											<i className="flaticon-health"></i>
-											<h3>Health Care</h3>
-											<p>All kind of industry</p>
+											<h3>La médecine</h3>
+											{/* <p>All kind of industry</p> */}
 										</span>
 									</li>
 
@@ -85,8 +82,8 @@ const WhatWeOffer = () => {
 									>
 										<span>
 											<i className="flaticon-automation"></i>
-											<h3>Manufacturing</h3>
-											<p>All kind of industry</p>
+											<h3>La programation</h3>
+											{/* <p>All kind of industry</p> */}
 										</span>
 									</li>
 								</ul>
@@ -108,25 +105,16 @@ const WhatWeOffer = () => {
 
 											<div className="col-lg-6">
 												<div className="industries-content">
-													<h3>Heavy Industry</h3>
+													<h3>La neurologie</h3>
 													<p>
-														Lorem ipsum dolor sit,
-														amet consectetur
-														adipisicing elit. Est
-														atque recusandae esse
-														alias reprehenderit.
+													L'étude de la neurologie a permis aux scientifiques de mieux comprendre le fonctionnement du cerveau et de la mémoire
 													</p>
 													<p>
-														Lorem ipsum dolor, sit
-														amet consectetur
-														adipisicing elit. Ea
-														doloribus molestias illo
-														ad aperiam quo natus
-														voluptatum, eos
-														laboriosam vel deserunt?
+													En effet, la mémoire joue un rôle clé dans la formation des rêves et l'interprétation de ceux-ci.
 													</p>
+													<p>En comprenant les processus neuronaux impliqués dans la formation et la consolidation de la mémoire, les scientifiques ont pu développer des algorithmes d'apprentissage automatique qui permettent à Onirix d'analyser et de reconnaître les motifs de rêve et de les interpréter de manière cohérente.</p>
 
-													<div className="row">
+													{/* <div className="row">
 														<div className="col-lg-6 col-sm-6">
 															<ul className="industries-item">
 																<li>
@@ -169,7 +157,7 @@ const WhatWeOffer = () => {
 														>
 															Discover More
 														</Link>
-													</div>
+													</div> */}
 												</div>
 											</div>
 										</div>
@@ -180,7 +168,7 @@ const WhatWeOffer = () => {
 										<div className="row  align-items-center">
 											<div className="col-lg-6">
 												<div className="industries-content">
-													<h3>Transportation</h3>
+													<h3>La psychologie humaine</h3>
 													<p>
 														Lorem ipsum dolor sit,
 														amet consectetur
