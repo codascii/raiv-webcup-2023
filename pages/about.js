@@ -24,9 +24,9 @@ export default function About2() {
 
 			<About />
 			<TeamTwo />
-			<div className="pb-50">
+			{/* <div className="pb-50">
 				<Partner />
-			</div>
+			</div> */}
 			{/* <WhyChooseUs /> */}
 
 			{/* <MakeYourBusiness /> */}

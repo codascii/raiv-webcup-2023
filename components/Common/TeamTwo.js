@@ -83,14 +83,11 @@ const TeamTwo = () => {
 		<>
 			<section className="team-area pb-70 pt-70">
 				<div className="container">
-					<div className="section-title home-four-section-title">
+					<div className="section-title">
 						<span>Membre de l'équipe</span>
-						<h2>Meet Our Genius Team</h2>
+						<h2>L'équipe institue international des rêves</h2>
 						<p>
-							Lorem ipsum dolor sit amet consectetur adipisicing
-							elit. Molestias eos ea obcaecati et similique
-							incidunt animi, sed, quos officiis placeat. Id ipsa
-							molestias.
+						L'équipe de ONIRIX est composée d'experts en intelligence artificielle, en apprentissage automatique et en traitement du langage naturel. Leur mission est d'aider les gens à mieux comprendre la signification de leurs rêves et les implications qui en découlent.
 						</p>
 					</div>
 
