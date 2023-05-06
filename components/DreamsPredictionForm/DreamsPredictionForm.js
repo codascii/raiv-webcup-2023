@@ -4,6 +4,7 @@ import Swal from "sweetalert2";
 import withReactContent from "sweetalert2-react-content";
 const MySwal = withReactContent(Swal);
 import baseUrl from "../../utils/baseUrl";
+import { nightmareWords } from "./nightmareWords";
 
 const alertContent = () => {
 	MySwal.fire({
@@ -29,11 +30,13 @@ const DreamsPredictionForm = () => {
 	const [contact, setContact] = useState(INITIAL_STATE);
 	const [data, setData] = useState(null);
 	const [isFetchingData, setIsFetchingData] = useState(false);
+	const [isNightmare, setIsNightmare] = useState(false);
 
 	const handleChange = (e) => {
 		const { name, value } = e.target;
 		setContact((prevState) => ({ ...prevState, [name]: value }));
 		// console.log(contact)
+		setIsNightmare(false);
 	};
 
 	const preprompt =
@@ -42,25 +45,31 @@ const DreamsPredictionForm = () => {
 	const handleSubmit = async (e) => {
 		e.preventDefault();
 		try {
-			setIsFetchingData(true);
 			// const url = `${baseUrl}/api/contact`;
 			const url = `https://api.openai.com/v1/completions`;
 			const { text } = contact;
-			const payload = {
-				prompt: preprompt + text,
-				max_tokens: 2000,
-				model: "text-davinci-003",
-			};
-			const response = await axios.post(url, payload, {
-				headers: {
-					Authorization: `Bearer ${process.env.NEXT_PUBLIC_OPENAPI_TOKEN}`,
-				},
-			});
-			setData(response.data.choices[0].text);
-			setContact(INITIAL_STATE);
 
-			setIsFetchingData(false);
-			// alertContent();
+			// Test s'il s'agit d'un cauchemard
+			if (new RegExp(nightmareWords.join("|")).test(text)) {
+				setIsNightmare(true);
+			} else {
+				setIsFetchingData(true);
+				const payload = {
+					prompt: preprompt + text,
+					max_tokens: 2000,
+					model: "text-davinci-003",
+				};
+				const response = await axios.post(url, payload, {
+					headers: {
+						Authorization: `Bearer ${process.env.NEXT_PUBLIC_OPENAPI_TOKEN}`,
+					},
+				});
+				setData(response.data.choices[0].text);
+				setContact(INITIAL_STATE);
+
+				setIsFetchingData(false);
+				// alertContent();
+			}
 		} catch (error) {
 			console.log(error);
 		}
@@ -71,7 +80,34 @@ const DreamsPredictionForm = () => {
 			<div className="container">
 				<form onSubmit={handleSubmit}>
 					<div className="row">
-						<div className="col-lg-12 col-md-12">
+						<h2>Onirix au service de vos rêves</h2>
+						<p>
+							Utilisez la zone de saisie ci-dessous pour demander
+							à <strong>Onirix</strong> de prédir vos rêves les
+							plus fous. Pour une meilleure prédiction, soyez le
+							plus exhaustive possible. Onirix a aussi été
+							entrainer pour vous conseiller d'aller consulter un
+							professienel de santé si besoin.
+						</p>
+						{isNightmare && (
+							<p
+								// id="consult-health-professionnal"
+								style={{
+									border: "1px solid orange",
+									padding: "15px 20px",
+									margin: "10px calc(var(--bs-gutter-x) * .5)",
+									backgroundColor: "orange",
+									borderRadius: 8,
+									color: "white",
+								}}
+							>
+								D'après ce que vous avez écrit, il semblerait
+								que vous êtes victimes de cauchemard. Je vous
+								suggère d'aller consulter un professionnel de
+								santé.
+							</p>
+						)}
+						<div className="col-lg-12 col-md-12 mb-20 mt-10">
 							<div className="form-group">
 								<textarea
 									name="text"
@@ -85,7 +121,7 @@ const DreamsPredictionForm = () => {
 								/>
 							</div>
 						</div>
-						<div className="col-lg-12 col-sm-12">
+						<div className="col-lg-12 col-sm-12 mt-50">
 							<button
 								type="submit"
 								className="default-btn btn-two"
@@ -95,109 +131,24 @@ const DreamsPredictionForm = () => {
 						</div>
 					</div>
 				</form>
-				<div className="contact-wrap contact-pages mb-0">
-					<div className="contact-form">
-						<div className="section-title">
-							<h2>Onirix au service de vos rêves</h2>
-						</div>
-
-						<form onSubmit={handleSubmit}>
-							<div className="row">
-								{/* <div className="col-lg-6 col-sm-6">
-									<div className="form-group">
-										<input
-											type="text"
-											name="name"
-											placeholder="Name"
-											className="form-control"
-											value={contact.name}
-											onChange={handleChange}
-											required
-										/>
-									</div>
-								</div>
-								<div className="col-lg-6 col-sm-6">
-									<div className="form-group">
-										<input
-											type="text"
-											name="email"
-											placeholder="Email"
-											className="form-control"
-											value={contact.email}
-											onChange={handleChange}
-											required
-										/>
-									</div>
-								</div>
-								<div className="col-lg-6 col-sm-6">
-									<div className="form-group">
-										<input
-											type="text"
-											name="number"
-											placeholder="Phone number"
-											className="form-control"
-											value={contact.number}
-											onChange={handleChange}
-											required
-										/>
-									</div>
-								</div>
-								<div className="col-lg-6 col-sm-6">
-									<div className="form-group">
-										<input
-											type="text"
-											name="subject"
-											placeholder="Subject"
-											className="form-control"
-											value={contact.subject}
-											onChange={handleChange}
-											required
-										/>
-									</div>
-								</div> 
-								<div className="col-lg-12 col-md-12">
-									<div className="form-group">
-										<textarea
-											name="text"
-											cols="30"
-											rows="6"
-											placeholder="J'ai rêvé de..."
-											className="form-control"
-											value={contact.text}
-											onChange={handleChange}
-											required
-										/>
-									</div>
-								</div>
-								<div className="col-lg-12 col-sm-12">
-									<button
-										type="submit"
-										className="default-btn btn-two"
-									>
-										Envoyer
-									</button>
-								</div>*/}
-							</div>
-						</form>
-						<div className="mt-20">
-							{isFetchingData ? (
-								"Onirix : prédiction en cours..."
-							) : (
-								<>
-									{data && (
-										<>
-											<h6>
-												Voici la prédiction de votre
-												rêve :
-											</h6>
-											<p>{data}</p>
-										</>
-									)}
-								</>
-							)}
-						</div>
+				{!isNightmare && (
+					<div className="mt-20">
+						{isFetchingData ? (
+							"Onirix : prédiction en cours..."
+						) : (
+							<>
+								{data && (
+									<>
+										<h6>
+											Voici la prédiction de votre rêve :
+										</h6>
+										<p>{data}</p>
+									</>
+								)}
+							</>
+						)}
 					</div>
-				</div>
+				)}
 			</div>
 		</section>
 	);
