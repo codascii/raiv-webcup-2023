@@ -11,10 +11,10 @@ export default function Contact() {
       <Navbar />
 
       <PageBanner
-        pageTitle="Contact Style One"
+        pageTitle="Contactez-nous"
         homePageUrl="/"
         homePageText="Home"
-        activePageText="Contact Style One"
+        activePageText="Notre équipe est toujours au top pour vous servir."
       />
 
       <ContactInfo />
