@@ -170,26 +170,14 @@ const WhatWeOffer = () => {
 												<div className="industries-content">
 													<h3>La psychologie humaine</h3>
 													<p>
-														Lorem ipsum dolor sit,
-														amet consectetur
-														adipisicing elit. Est
-														atque recusandae esse
-														alias reprehenderit.
+													la psychologie humaine a permis de comprendre les différentes phases du sommeil et de la rêverie, ce qui a permis de développer Onirix en tant qu'outil d'interprétation des rêves.
 													</p>
 													<p>
-														Lorem ipsum dolor, sit
-														amet consectetur
-														adipisicing elit. Ea
-														doloribus molestias illo
-														ad aperiam quo natus
-														voluptatum, eos
-														laboriosam vel deserunt?
-														Ab rerum eaque aperiam
-														sequi dolore minus
-														itaque eos!
+													En comprenant mieux les mécanismes et les motifs des rêves, Onirix peut aider les utilisateurs à mieux comprendre leurs propres rêves et à en tirer des informations utiles.
 													</p>
+													<p>De plus, l'étude de la psychologie a permis de développer des techniques de communication avec l'utilisateur qui permettent à Onirix de fournir des interprétations personnalisées et pertinentes.</p>
 
-													<div className="row">
+													{/* <div className="row">
 														<div className="col-lg-6 col-sm-6">
 															<ul className="industries-item">
 																<li>
@@ -232,7 +220,7 @@ const WhatWeOffer = () => {
 														>
 															Discover More
 														</Link>
-													</div>
+													</div> */}
 												</div>
 											</div>
 
@@ -261,28 +249,16 @@ const WhatWeOffer = () => {
 
 											<div className="col-lg-6">
 												<div className="industries-content">
-													<h3>Health Care</h3>
+													<h3>La médecine</h3>
 													<p>
-														Lorem ipsum dolor sit,
-														amet consectetur
-														adipisicing elit. Est
-														atque recusandae esse
-														alias reprehenderit.
+													La médecine a contribué à la création d'Onirix en fournissant des connaissances sur le fonctionnement du corps humain et sur la façon dont les maladies et les troubles peuvent affecter le sommeil et les rêves.
 													</p>
 													<p>
-														Lorem ipsum dolor, sit
-														amet consectetur
-														adipisicing elit. Ea
-														doloribus molestias illo
-														ad aperiam quo natus
-														voluptatum, eos
-														laboriosam vel deserunt?
-														Ab rerum eaque aperiam
-														sequi dolore minus
-														itaque eos!
+													Cette compréhension a permis aux scientifiques de concevoir des modèles d'IA qui peuvent aider à diagnostiquer et à traiter des troubles du sommeil, ainsi qu'à interpréter les rêves de manière plus précise et efficace.
 													</p>
+													<p>Elle peut aider les professionnels de la santé à interpréter les rêves de leurs patients atteints de troubles du sommeil, et à ajuster leur traitement en conséquence.</p>
 
-													<div className="row">
+													{/* <div className="row">
 														<div className="col-lg-6 col-sm-6">
 															<ul className="industries-item">
 																<li>
@@ -316,7 +292,7 @@ const WhatWeOffer = () => {
 																</li>
 															</ul>
 														</div>
-													</div>
+													</div> 
 
 													<div className="text-center">
 														<Link
@@ -325,7 +301,7 @@ const WhatWeOffer = () => {
 														>
 															Discover More
 														</Link>
-													</div>
+													</div>*/}
 												</div>
 											</div>
 										</div>
@@ -336,28 +312,16 @@ const WhatWeOffer = () => {
 										<div className="row  align-items-center">
 											<div className="col-lg-6">
 												<div className="industries-content">
-													<h3>Manufacturing</h3>
+													<h3>La programmation</h3>
 													<p>
-														Lorem ipsum dolor sit,
-														amet consectetur
-														adipisicing elit. Est
-														atque recusandae esse
-														alias reprehenderit.
+													La recherche en programmation a permis de développer Onirix en fournissant des algorithmes d'apprentissage automatique et de traitement du langage naturel, qui sont des composants clés de l'IA.
 													</p>
 													<p>
-														Lorem ipsum dolor, sit
-														amet consectetur
-														adipisicing elit. Ea
-														doloribus molestias illo
-														ad aperiam quo natus
-														voluptatum, eos
-														laboriosam vel deserunt?
-														Ab rerum eaque aperiam
-														sequi dolore minus
-														itaque eos!
+													Ces algorithmes ont été utilisés pour entraîner l'IA à comprendre les rêves et à les interpréter de manière précise et cohérente.
 													</p>
+													<p>La recherche en programmation continue également de jouer un rôle important dans l'amélioration et la mise à jour constante d'Onirix pour répondre aux besoins changeants des utilisateurs.</p>
 
-													<div className="row">
+													{/* <div className="row">
 														<div className="col-lg-6 col-sm-6">
 															<ul className="industries-item">
 																<li>
@@ -400,7 +364,7 @@ const WhatWeOffer = () => {
 														>
 															Discover More
 														</Link>
-													</div>
+													</div> */}
 												</div>
 											</div>
 

@@ -172,7 +172,7 @@ const Footer = () => {
                   <li className="address">
                     <i className="flaticon-maps-and-flags"></i>
                     <span>Address</span>
-                    123 Rue Raiv Houmadev, 97600 Mamoudzou, MAYOTTE 
+                    123, rue des étoiles 97600 Mamoudzou, MAYOTTE 
                   </li>
                 </ul>
               </div>
