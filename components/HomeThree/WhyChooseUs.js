@@ -57,7 +57,7 @@ const WhyChooseUs = () => {
       <section className="choose-ue-area pt-100 pb-70">
         <div className="container">
           <div className="section-title">
-            <span>Why Choose Us</span>
+            <span>Pourquoi nous choisir ?</span>
             <h2>
             La qualité de l'Intelligence Artificielle à votre service
             </h2>
