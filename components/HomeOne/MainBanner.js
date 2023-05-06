@@ -47,12 +47,12 @@ const MainBanner = () => {
 										Essayez Onirix
 									</Link>
 
-									<Link
+									{/* <Link
 										href="/contact"
 										className="default-btn"
 									>
 										Contactez-nous
-									</Link>
+									</Link> */}
 								</div>
 							</div>
 						</div>
