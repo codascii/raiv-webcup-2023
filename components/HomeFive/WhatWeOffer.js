@@ -23,8 +23,8 @@ const WhatWeOffer = () => {
       <section className="industries-area pb-100">
         <div className="container">
           <div className="section-title">
-            <span>What We Offer</span>
-            <h2>Industries We Serve</h2>
+            <span>Qui peut utiliser ONIRIX</span>
+            <h2>Qui peut utiliser ONIRIX</h2>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias
               eos ea obcaecati et similique incidunt animi, sed, quos officiis

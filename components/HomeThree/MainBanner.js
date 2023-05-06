@@ -23,7 +23,7 @@ const MainBanner = () => {
                   data-aos-duration="1200"
                   data-aos-delay="200"
                 >
-                  Secure IT Solutions For A More Secure Environment
+                  ONIRIX est une intelligence artificielle avancée.
                 </h1>
 
                 <p
@@ -31,9 +31,7 @@ const MainBanner = () => {
                   data-aos-duration="1200"
                   data-aos-delay="300"
                 >
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Quis ipsum suspendisse ultrices gravida risus commodo
+                  Des Rêves pour aider les gens à mieux comprendre la signification et les implications de leurs rêves.
                 </p>
 
                 <div 
@@ -43,14 +41,14 @@ const MainBanner = () => {
                   data-aos-delay="400"
                 >
                   <Link href="/about-1" className="default-btn">
-                    Learn More
+                    Essayez
                   </Link>
 
                   <div
                     onClick={() => setToggler(!toggler)}
                     className="default-btn active popup-youtube"
                   >
-                    <i className="bx bx-play"></i> How it work?
+                    <i className="bx bx-play"></i> Comment ça marche?
                   </div>
                 </div>
               </div>
