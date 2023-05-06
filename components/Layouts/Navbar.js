@@ -491,7 +491,7 @@ const Navbar = () => {
 										</li>
 									</ul>
 								</li>
-								<li className="nav-item">
+								{/* <li className="nav-item">
 									<Link
 										href="/dreams-prediction/"
 										className={`nav-link ${
@@ -501,9 +501,9 @@ const Navbar = () => {
 										}`}
 									>
 										Prédiction
-										{/* <i className="bx bx-chevron-down"></i> */}
+										{/* <i className="bx bx-chevron-down"></i> *}
 									</Link>
-								</li>
+								</li> */}
 
 								<li className="nav-item">
 									<Link
@@ -545,8 +545,8 @@ const Navbar = () => {
 							</ul>
 
 							<div className="others-options">
-								<Link href="/login/" className="default-btn">
-									Log In{" "}
+								<Link href="/dreams-prediction/" className="default-btn">
+									Essayer Onirix{" "}
 									<i className="bx bx-log-in-circle"></i>
 								</Link>
 							</div>

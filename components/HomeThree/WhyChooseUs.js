@@ -14,7 +14,7 @@ const whyChooseUsData = [
     iconName: "flaticon-shield",
     title: "Soutien technique",
     shortText:
-      "notre équipe est là pour vous aider. Nous sommes disponibles 24 heures sur 24, 7 jours sur 7.",
+      "Notre équipe est là pour vous aider. Nous sommes disponibles 24/24, 7 jours sur 7.",
     aosDelay: "200",
   },
   {
@@ -22,7 +22,7 @@ const whyChooseUsData = [
     iconName: "flaticon-support",
     title: "Assistance en ligne",
     shortText:
-      "Notre équipe d'assistance en ligne est là pour vous aider avec toutes vos questions et problèmes liés à l'utilisation de l'IA Onirix",
+      "Notre équipe d'assistance en ligne est là pour vous aider sur toutes vos questions et problèmes liés à l'utilisation de l'IA Onirix",
     aosDelay: "300",
   },
   {
@@ -62,7 +62,7 @@ const WhyChooseUs = () => {
             La qualité de l'Intelligence Artificielle à votre service
             </h2>
             <p>
-            Notre offre de service AI Onirix met à votre disposition une technologie d'intelligence artificielle de qualité supérieure pour vous aider à comprendre les significations et les implications de vos rêves. Grâce à une combinaison de techniques d'apprentissage automatique et de traitement du langage naturel, l'IA Onirix fournit une analyse précise et fiable de vos rêves pour vous aider à mieux comprendre votre avenir.
+            Notre institut met à votre disposition une technologie d'intelligence artificielle de qualité supérieure pour vous aider à comprendre les significations de vos rêves. Grâce à une combinaison de techniques d'apprentissage automatique et de traitement du langage naturel, l'IA Onirix fournit une analyse précise et fiable de vos rêves pour vous aider à mieux comprendre votre avenir.
             </p>
           </div>
 

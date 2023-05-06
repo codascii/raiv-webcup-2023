@@ -5,6 +5,7 @@ import "../styles/bootstrap.min.css";
 import "animate.css";
 import "../styles/boxicons.min.css";
 import "../styles/flaticon.css";
+import "../styles/custom-style.css";
 import "react-accessible-accordion/dist/fancy-example.css";
 import "swiper/css";
 import "swiper/css/bundle";

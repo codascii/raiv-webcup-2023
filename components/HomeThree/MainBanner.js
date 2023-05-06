@@ -32,7 +32,7 @@ const MainBanner = () => {
 									data-aos-duration="1200"
 									data-aos-delay="300"
 								>
-									Des Rêves pour aider les gens à mieux
+									Des rêves pour aider les gens à mieux
 									comprendre la signification et les
 									implications de leurs rêves.
 								</p>
@@ -47,7 +47,7 @@ const MainBanner = () => {
 										href="/dreams-prediction"
 										className="default-btn"
 									>
-										Essayez
+										Essayez Onirix
 									</Link>
 
 									<div
