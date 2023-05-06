@@ -68,8 +68,8 @@ const Navbar = () => {
 											currentPath == "/" && "active"
 										}`}
 									>
-										Home{" "}
-										<i className="bx bx-chevron-down"></i>
+										Home
+										{/* <i className="bx bx-chevron-down"></i> */}
 									</Link>
 
 									<ul className="dropdown-menu">
@@ -134,6 +134,17 @@ const Navbar = () => {
 										</li>
 									</ul>
 								</li>
+								<li className="nav-item">
+									<Link
+										href="/index-3"
+										className={`nav-link ${
+											currentPath == "/index-3" &&
+											"active"
+										}`}
+									>
+										Onirix
+									</Link>
+								</li>
 
 								<li className="nav-item">
 									<Link
@@ -143,8 +154,8 @@ const Navbar = () => {
 											"active"
 										}`}
 									>
-										About{" "}
-										<i className="bx bx-chevron-down"></i>
+										About
+										{/* <i className="bx bx-chevron-down"></i> */}
 									</Link>
 
 									<ul className="dropdown-menu">
@@ -174,7 +185,7 @@ const Navbar = () => {
 									</ul>
 								</li>
 
-								<li className="nav-item">
+								{/* <li className="nav-item">
 									<Link
 										href="/services/"
 										className={`nav-link ${
@@ -251,9 +262,9 @@ const Navbar = () => {
 											</Link>
 										</li>
 									</ul>
-								</li>
+								</li> */}
 
-								<li className="nav-item">
+								{/* <li className="nav-item">
 									<Link
 										href="#"
 										onClick={(e) => e.preventDefault()}
@@ -427,9 +438,9 @@ const Navbar = () => {
 											</Link>
 										</li>
 									</ul>
-								</li>
+								</li> */}
 
-								<li className="nav-item">
+								{/* <li className="nav-item">
 									<Link
 										href="#"
 										onClick={(e) => e.preventDefault()}
@@ -478,7 +489,7 @@ const Navbar = () => {
 											</Link>
 										</li>
 									</ul>
-								</li>
+								</li> */}
 
 								<li className="nav-item">
 									<Link
@@ -488,8 +499,8 @@ const Navbar = () => {
 											"active"
 										}`}
 									>
-										Contact{" "}
-										<i className="bx bx-chevron-down"></i>
+										Contact
+										{/* <i className="bx bx-chevron-down"></i> */}
 									</Link>
 
 									<ul className="dropdown-menu">
@@ -528,8 +539,8 @@ const Navbar = () => {
 											"active"
 										}`}
 									>
-										Prédiction{" "}
-										<i className="bx bx-chevron-down"></i>
+										Prédiction
+										{/* <i className="bx bx-chevron-down"></i> */}
 									</Link>
 								</li>
 							</ul>
