@@ -147,9 +147,9 @@ const Navbar = () => {
 
 								<li className="nav-item">
 									<Link
-										href="/about-1/"
+										href="/about-2/"
 										className={`nav-link ${
-											currentPath == "/about-1/" &&
+											currentPath == "/about-2/" &&
 											"active"
 										}`}
 									>
@@ -157,7 +157,7 @@ const Navbar = () => {
 										{/* <i className="bx bx-chevron-down"></i> */}
 									</Link>
 
-									<ul className="dropdown-menu">
+									{/* <ul className="dropdown-menu">
 										<li className="nav-item">
 											<Link
 												href="/about-1/"
@@ -181,7 +181,7 @@ const Navbar = () => {
 												About Style Two
 											</Link>
 										</li>
-									</ul>
+									</ul> */}
 								</li>
 
 								{/* <li className="nav-item">
