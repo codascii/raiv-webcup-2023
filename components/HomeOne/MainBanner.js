@@ -14,7 +14,7 @@ const MainBanner = () => {
                   data-aos-duration="1200"
                   data-aos-delay="100"
                 >
-                  Specialized Artificial Intelligence Startup
+                  Institut Internationnal des rêves
                 </h1>
 
                 <p
@@ -22,9 +22,8 @@ const MainBanner = () => {
                   data-aos-duration="1200"
                   data-aos-delay="200"
                 >
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Quis ipsum suspendisse ultrices gravida risus commodo
+                  Et si vos rêves ne se limitaient pas à être de simples illusions de l'esprit ? Et s'ils étaient capables
+de prédire l'avenir ? 
                 </p>
 
                 <div 
