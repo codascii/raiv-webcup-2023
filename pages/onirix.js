@@ -20,12 +20,12 @@ export default function Index3() {
 
 			<MainBanner />
 
+
+
+			<About />
 			<div className="pt-100">
 				<PartnerSlider />
 			</div>
-
-			<About />
-
 			<WhyChooseUs />
 
 			<Services />
