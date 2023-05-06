@@ -11,7 +11,7 @@ const CTA = () => {
             <h3>Êtes-vous prêt à tester Onirix ?</h3>
           </div>
           <div className="cta-btn-box">
-            <Link href="/contact" className="default-btn">
+            <Link href="/dreams-prediction" className="default-btn">
               Essayer Onirix
             </Link>
           </div>
