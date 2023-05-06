@@ -60,7 +60,7 @@ const Footer = () => {
                   <li>
                     <Link href="/service-details">
                       <i className="right-icon bx bx-chevrons-right"></i>
-                      Big Data
+                      La psycologie
                     </Link>
                   </li>
                   <li>
@@ -72,13 +72,13 @@ const Footer = () => {
                   <li>
                     <Link href="/service-details">
                       <i className="right-icon bx bx-chevrons-right"></i>
-                      Application de Bureau 
+                      La créativité 
                     </Link>
                   </li>
                   <li>
                     <Link href="/service-details">
                       <i className="right-icon bx bx-chevrons-right"></i>
-                      Application Mobile
+                      marketing
                     </Link>
                   </li>
                   <li>
@@ -90,7 +90,7 @@ const Footer = () => {
                   <li>
                     <Link href="/service-details">
                       <i className="right-icon bx bx-chevrons-right"></i>
-                      Apprentissage Automatique
+                      la recherche
                     </Link>
                   </li>
                 </ul>
@@ -108,17 +108,17 @@ const Footer = () => {
 
                 <ul>
                   <li>
-                    <Link href="/about-1">
+                    <Link href="/about">
                       <i className="right-icon bx bx-chevrons-right"></i>
                       A propos de nous
                     </Link>
                   </li>
-                  <li>
+                  {/* <li>
                     <Link href="/services">
                       <i className="right-icon bx bx-chevrons-right"></i>
                       Services
                     </Link>
-                  </li>
+                  </li> */}
                   {/* <li>
                     <Link href="/pricing">
                       <i className="right-icon bx bx-chevrons-right"></i>
@@ -166,7 +166,7 @@ const Footer = () => {
                   <li className="address">
                     <i className="flaticon-envelope"></i>
                     <span>Adress mail</span>
-                    contac@institutinternational.com
+                    contact@institutinternational.com
                   </li>
 
                   <li className="address">
