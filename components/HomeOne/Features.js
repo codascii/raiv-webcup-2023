@@ -4,25 +4,25 @@ import Link from "next/link";
 const featuresData = [
   {
     iconName: "bx bx-shopping-bag",
-    title: "Data Science",
+    title: "Analyse de rêves",
     shortText:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia, maxime ipsum praesentium culpa expedita.",
+      "L'institut offre une analyse de rêves personnalisée, dans laquelle ORNIX examine les rêves des clients et fournissent des interprétations et des conseils sur leur signification",
     viewDetails: "/service-details",
     aosDelay: "100",
   },
   {
     iconName: "flaticon-engineer",
-    title: "Data Engineer",
+    title: "Prédiction de l'avenir",
     shortText:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia, maxime ipsum praesentium culpa expedita.",
+      "Une nouvelle approche pour comprendre la signification des rêves et pour prédire l'avenir, en analysant les descriptions des rêves que fourni les utilisateur.",
     viewDetails: "/service-details",
     aosDelay: "200",
   },
   {
     iconName: "flaticon-success",
-    title: "Facing AI Challenges",
+    title: "Recherche sur les rêves",
     shortText:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia, maxime ipsum praesentium culpa expedita.",
+      "L'Institut International des Rêves mène des recherches sur les rêves pour découvrir de nouveaux domaines d'exploration dans ce domaine et pour mieux comprendre l'impact des rêves.",
     viewDetails: "/service-details",
     aosDelay: "300",
   },

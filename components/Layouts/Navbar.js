@@ -68,12 +68,12 @@ const Navbar = () => {
 											currentPath == "/" && "active"
 										}`}
 									>
-										Home
+										Accueil
 										{/* <i className="bx bx-chevron-down"></i> */}
 									</Link>
 
-									<ul className="dropdown-menu">
-										<li className="nav-item">
+									{/*<ul className="dropdown-menu">
+									<li className="nav-item">
 											<Link
 												href="/"
 												className={`nav-link ${
@@ -107,9 +107,9 @@ const Navbar = () => {
 											>
 												Home Three
 											</Link>
-										</li>
+										</li> */}
 
-										<li className="nav-item">
+									{/* <li className="nav-item">
 											<Link
 												href="/index-4/"
 												className={`nav-link ${
@@ -132,14 +132,13 @@ const Navbar = () => {
 												Home Five
 											</Link>
 										</li>
-									</ul>
+									</ul> */}
 								</li>
 								<li className="nav-item">
 									<Link
-										href="/index-3"
+										href="/onirix"
 										className={`nav-link ${
-											currentPath == "/index-3" &&
-											"active"
+											currentPath == "/onirix" && "active"
 										}`}
 									>
 										Onirix
