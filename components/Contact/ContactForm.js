@@ -49,99 +49,103 @@ const ContactForm = () => {
     }
   };
 
-  return (
-    <div className="main-contact-area pb-100">
-      <div className="container">
-        <div className="section-title">
-          <span>Nous Concter</span>
-          <h2>Nous sommes disposées à répondre à toutes vos requêtes. Déposez votre message ici</h2>
-          <p>
-          Nous sommes à votre service.
-          </p>
-        </div>
+	return (
+		<div className="main-contact-area pb-100">
+			<div className="container">
+				<div className="section-title">
+					<span>Nous Contacter</span>
+					<h2>
+						Nous sommes disposées à répondre à toutes vos requêtes.
+						Déposez votre message ici
+					</h2>
+					<p>Nous sommes à votre service.</p>
+				</div>
 
-        <div className="row align-items-center">
-          <div className="col-lg-6 col-md-12">
-            <div className="contact-wrap contact-pages mb-0">
-              <div className="contact-form">
-                <form onSubmit={handleSubmit}>
-                  <div className="row">
-                    <div className="col-lg-6 col-sm-6">
-                      <div className="form-group">
-                        <input
-                          type="text"
-                          name="name"
-                          placeholder="Name"
-                          className="form-control"
-                          value={contact.name}
-                          onChange={handleChange}
-                          required
-                        />
-                      </div>
-                    </div>
-                    <div className="col-lg-6 col-sm-6">
-                      <div className="form-group">
-                        <input
-                          type="text"
-                          name="email"
-                          placeholder="Email"
-                          className="form-control"
-                          value={contact.email}
-                          onChange={handleChange}
-                          required
-                        />
-                      </div>
-                    </div>
-                    <div className="col-lg-6 col-sm-6">
-                      <div className="form-group">
-                        <input
-                          type="text"
-                          name="number"
-                          placeholder="Phone number"
-                          className="form-control"
-                          value={contact.number}
-                          onChange={handleChange}
-                          required
-                        />
-                      </div>
-                    </div>
-                    <div className="col-lg-6 col-sm-6">
-                      <div className="form-group">
-                        <input
-                          type="text"
-                          name="subject"
-                          placeholder="Subject"
-                          className="form-control"
-                          value={contact.subject}
-                          onChange={handleChange}
-                          required
-                        />
-                      </div>
-                    </div>
-                    <div className="col-lg-12 col-md-12">
-                      <div className="form-group">
-                        <textarea
-                          name="text"
-                          cols="30"
-                          rows="6"
-                          placeholder="Write your message..."
-                          className="form-control"
-                          value={contact.text}
-                          onChange={handleChange}
-                          required
-                        />
-                      </div>
-                    </div>
-                    <div className="col-lg-12 col-sm-12">
-                      <button type="submit" className="default-btn btn-two">
-                        Envoyer votre message
-                      </button>
-                    </div>
-                  </div>
-                </form>
-              </div>
-            </div>
-          </div>
+				<div className="row align-items-center">
+					<div className="col-lg-6 col-md-12">
+						<div className="contact-wrap contact-pages mb-0">
+							<div className="contact-form">
+								<form onSubmit={handleSubmit}>
+									<div className="row">
+										<div className="col-lg-6 col-sm-6">
+											<div className="form-group">
+												<input
+													type="text"
+													name="name"
+													placeholder="Nom"
+													className="form-control"
+													value={contact.name}
+													onChange={handleChange}
+													required
+												/>
+											</div>
+										</div>
+										<div className="col-lg-6 col-sm-6">
+											<div className="form-group">
+												<input
+													type="text"
+													name="email"
+													placeholder="Email"
+													className="form-control"
+													value={contact.email}
+													onChange={handleChange}
+													required
+												/>
+											</div>
+										</div>
+										<div className="col-lg-6 col-sm-6">
+											<div className="form-group">
+												<input
+													type="text"
+													name="number"
+													placeholder="Numéro de téléphone"
+													className="form-control"
+													value={contact.number}
+													onChange={handleChange}
+													required
+												/>
+											</div>
+										</div>
+										<div className="col-lg-6 col-sm-6">
+											<div className="form-group">
+												<input
+													type="text"
+													name="subject"
+													placeholder="Objet"
+													className="form-control"
+													value={contact.subject}
+													onChange={handleChange}
+													required
+												/>
+											</div>
+										</div>
+										<div className="col-lg-12 col-md-12">
+											<div className="form-group">
+												<textarea
+													name="text"
+													cols="30"
+													rows="6"
+													placeholder="Rédigez votre message..."
+													className="form-control"
+													value={contact.text}
+													onChange={handleChange}
+													required
+												/>
+											</div>
+										</div>
+										<div className="col-lg-12 col-sm-12">
+											<button
+												type="submit"
+												className="default-btn btn-two"
+											>
+												Envoyer votre message
+											</button>
+										</div>
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
 
           <div className="col-lg-6 col-md-12">
             <div className="contact-img">
