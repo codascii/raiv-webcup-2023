@@ -3,8 +3,8 @@ import React from "react";
 const teamData = [
 	{
 		image: "/images/team/team5.png",
-		name: "Karen Peter",
-		designation: "CEO & Founder",
+		name: "Anthony Larchal",
+		designation: "Biologiste",
 		aosDelay: "100",
 
 		socialLinks: [
@@ -28,8 +28,8 @@ const teamData = [
 	},
 	{
 		image: "/images/team/team6.png",
-		name: "Alex Piter",
-		designation: "Executive",
+		name: "Jacques Laurence",
+		designation: "Manager division scientifique",
 		aosDelay: "200",
 
 		socialLinks: [
@@ -53,8 +53,8 @@ const teamData = [
 	},
 	{
 		image: "/images/team/team7.png",
-		name: "Alisa Maria",
-		designation: "Web Developer",
+		name: "Éloïse Marta",
+		designation: "Directrice de la communication",
 		aosDelay: "300",
 
 		socialLinks: [
@@ -85,9 +85,14 @@ const TeamTwo = () => {
 				<div className="container">
 					<div className="section-title">
 						<span>Membre de l'équipe</span>
-						<h2>L'équipe institue international des rêves</h2>
+						<h2>L'équipe de l'institut international des rêves</h2>
 						<p>
-						L'équipe de ONIRIX est composée d'experts en intelligence artificielle, en apprentissage automatique et en traitement du langage naturel. Leur mission est d'aider les gens à mieux comprendre la signification de leurs rêves et les implications qui en découlent.
+							L'équipe de ONIRIX est composée d'experts en
+							intelligence artificielle, en apprentissage
+							automatique et en traitement du langage naturel.
+							Leur mission est d'aider les utilisateurs à mieux
+							comprendre la signification de leurs rêves et les
+							implications qui en découlent.
 						</p>
 					</div>
 

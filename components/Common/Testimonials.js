@@ -81,7 +81,7 @@ const testimonialsData = [
 	{
 		image: "/images/clients/client4.jpg",
 		name: "Émilie Bodichon",
-		designation: "ReactJS Developer",
+		designation: "Psychologue",
 		feedbackText:
 			"Je remercie l'institut internationale des rêves de nous avoir mit à disposition Onirix. Cette IA nous aide à mieux comprendre nos rêves.",
 
