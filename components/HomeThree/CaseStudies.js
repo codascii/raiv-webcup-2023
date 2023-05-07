@@ -53,7 +53,7 @@ const CaseStudies = () => {
 
                 <h3>
                   <Link href="/case-studies-details">
-                  Avez-vous peur que...
+                  L’IA générative a déjà...
                   </Link>
                 </h3>
               </div>
@@ -74,7 +74,7 @@ const CaseStudies = () => {
                 </div>
 
                 <h3>
-                  <Link href="/case-studies-details">IA et Retail : comment...</Link>
+                  <Link href="/case-studies-details">La technologie émergente de...</Link>
                 </h3>
               </div>
             </SwiperSlide>
@@ -94,7 +94,7 @@ const CaseStudies = () => {
                 </div>
 
                 <h3>
-                  <Link href="/case-studies-details">Onirix fait preuve de plus...</Link>
+                  <Link href="/case-studies-details">Une IA « qui essaie de v...</Link>
                 </h3>
               </div>
             </SwiperSlide>
@@ -115,7 +115,7 @@ const CaseStudies = () => {
 
                 <h3>
                   <Link href="/case-studies-details">
-                  L’IA générative a déjà...
+                  Elle a gagné 2 prix ave...
                   </Link>
                 </h3>
               </div>
