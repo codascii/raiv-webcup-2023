@@ -26,17 +26,26 @@ const INITIAL_STATE = {
 	text: "",
 };
 
+const DREAM_MIN_LENGHT = 35;
+
 const DreamsPredictionForm = () => {
 	const [contact, setContact] = useState(INITIAL_STATE);
 	const [data, setData] = useState(null);
 	const [isFetchingData, setIsFetchingData] = useState(false);
 	const [isNightmare, setIsNightmare] = useState(false);
+	const [isButtonDisabled, setIsButtonDisabled] = useState(true);
 
 	const handleChange = (e) => {
 		const { name, value } = e.target;
 		setContact((prevState) => ({ ...prevState, [name]: value }));
 		// console.log(contact)
 		setIsNightmare(false);
+
+		if (value.length > DREAM_MIN_LENGHT) {
+			setIsButtonDisabled(false);
+		} else {
+			setIsButtonDisabled(true);
+		}
 	};
 
 	const preprompt =
@@ -121,16 +130,26 @@ const DreamsPredictionForm = () => {
 									onChange={handleChange}
 									required
 								/>
+								{isButtonDisabled && (
+									<i>
+										La description de votre rêve doit
+										contenir au moins {DREAM_MIN_LENGHT}{" "}
+										caractères.
+									</i>
+								)}
 							</div>
 						</div>
-						<div className="col-lg-12 col-sm-12 mt-50">
-							<button
-								type="submit"
-								className="default-btn btn-two"
-							>
-								Envoyer
-							</button>
-						</div>
+						{!isButtonDisabled && (
+							<div className="col-lg-12 col-sm-12 mt-50">
+								<button
+									type="submit"
+									className="default-btn btn-two"
+									disabled={isButtonDisabled}
+								>
+									Obtenir ma prédiction
+								</button>
+							</div>
+						)}
 					</div>
 				</form>
 				{!isNightmare && (
