@@ -19,7 +19,7 @@ const servicesDetailData = [
 			"En outre, la psychologie est également utile pour aider les utilisateurs à mieux comprendre leur propre comportement et à identifier les schémas comportementaux qui peuvent être préjudiciables à leur bien-être. Par exemple, Onirix peut aider à identifier les rêves récurrents qui suggèrent une tendance à l'anxiété ou à la dépression, ce qui peut aider la personne à rechercher une aide professionnelle pour traiter ces problèmes.",
 			"En somme, la psychologie est une discipline essentielle pour comprendre le comportement humain et la signification des rêves. Onirix utilise ces connaissances pour aider les utilisateurs à mieux comprendre leur propre comportement et à trouver des moyens de s'adapter aux défis de la vie.",
 		],
-		secondaryContent: ["Psychologie", "Langue"],
+		secondaryContent: ["Psychologie", "Thérapie"],
 	},
 	{
 		key: "ui-ux-design",
@@ -49,7 +49,7 @@ const servicesDetailData = [
 			"En outre, Onirix propose des fonctionnalités uniques qui permettent aux utilisateurs d'explorer leur créativité de manière plus approfondie. Par exemple, les utilisateurs peuvent utiliser des images, des sons et d'autres éléments multimédias pour enrichir leur expérience de rêve et stimuler leur créativité.",
 			"En somme, Onirix est une plateforme qui encourage la créativité dans l'analyse et l'interprétation des rêves. Grâce à des outils avancés et des fonctionnalités uniques, Onirix permet aux utilisateurs d'explorer leur monde intérieur de manière plus créative et stimulante.",
 		],
-		secondaryContent: ["Innovation", "Intelligence artificielle"],
+		secondaryContent: ["Innovation", "Design"],
 	},
 	{
 		key: "marketing",
@@ -81,7 +81,7 @@ const servicesDetailData = [
 			"Le succès de la mise en production dépend également de l'adoption et de la satisfaction des utilisateurs. ONIRIX s'efforce donc de fournir une expérience utilisateur exceptionnelle en offrant un support client de qualité, en écoutant les commentaires des utilisateurs et en apportant des améliorations continues à l'IA.",
 			"En somme, la mise en production d'ONIRIX est une étape cruciale pour offrir aux utilisateurs une expérience de rêve unique. Elle exige une planification minutieuse, une grande expertise technique et un engagement continu envers l'amélioration et la satisfaction des utilisateurs.",
 		],
-		secondaryContent: ["Psychologie", "Langue"],
+		secondaryContent: ["Inspiration", "Créativité"],
 	},
 	{
 		key: "research",
