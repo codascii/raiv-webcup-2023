@@ -80,40 +80,40 @@ const Footer = () => {
 								<h3>Services</h3>
 								<ul>
 									<li>
-										<Link href="/service-details?service=psychologie">
+										<a href="/service-details?service=psychologie">
 											<i className="right-icon bx bx-chevrons-right"></i>
 											La psychologie
-										</Link>
+										</a>
 									</li>
 									<li>
-										<Link href="/service-details?service=ui-ux-design">
+										<a href="/service-details?service=ui-ux-design">
 											<i className="right-icon bx bx-chevrons-right"></i>
 											UI/UX Design
-										</Link>
+										</a>
 									</li>
 									<li>
-										<Link href="/service-details?service=creativity">
+										<a href="/service-details?service=creativity">
 											<i className="right-icon bx bx-chevrons-right"></i>
 											La créativité
-										</Link>
+										</a>
 									</li>
 									<li>
-										<Link href="/service-details?service=marketing">
+										<a href="/service-details?service=marketing">
 											<i className="right-icon bx bx-chevrons-right"></i>
 											Marketing
-										</Link>
+										</a>
 									</li>
 									<li>
-										<Link href="/service-details?service=ingeniering">
+										<a href="/service-details?service=ingeniering">
 											<i className="right-icon bx bx-chevrons-right"></i>
 											L'ingénierie de Production
-										</Link>
+										</a>
 									</li>
 									<li>
-										<Link href="/service-details?service=research">
+										<a href="/service-details?service=research">
 											<i className="right-icon bx bx-chevrons-right"></i>
 											La recherche
-										</Link>
+										</a>
 									</li>
 								</ul>
 							</div>
