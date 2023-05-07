@@ -3,19 +3,7 @@ import axios from "axios";
 import Swal from "sweetalert2";
 import withReactContent from "sweetalert2-react-content";
 const MySwal = withReactContent(Swal);
-import baseUrl from "../../utils/baseUrl";
 import { nightmareWords } from "./nightmareWords";
-
-const alertContent = () => {
-	MySwal.fire({
-		title: "Bonjour je suis Orinix!",
-		text: "Je suis l'intelligence artifficielle de l'institut international des rêves. Je suis là pour vous aider à prédire votre avenir en me basant sur vos rêves.",
-		icon: "success",
-		timer: 10000,
-		timerProgressBar: true,
-		showConfirmButton: false,
-	});
-};
 
 // Form initial state
 const INITIAL_STATE = {
@@ -34,10 +22,6 @@ const DreamsPredictionForm = () => {
 	const [isFetchingData, setIsFetchingData] = useState(false);
 	const [isNightmare, setIsNightmare] = useState(false);
 	const [isButtonDisabled, setIsButtonDisabled] = useState(true);
-
-	useEffect(() => {
-		alertContent();
-	}, []);
 
 	const handleChange = (e) => {
 		const { name, value } = e.target;

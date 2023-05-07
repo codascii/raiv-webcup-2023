@@ -50,13 +50,13 @@ const MainBanner = () => {
 										Essayez Onirix
 									</Link>
 
-									<div
+									{/* <div
 										onClick={() => setToggler(!toggler)}
 										className="default-btn active popup-youtube"
 									>
 										<i className="bx bx-play"></i> Comment
 										ça marche?
-									</div>
+									</div> */}
 								</div>
 							</div>
 						</div>
