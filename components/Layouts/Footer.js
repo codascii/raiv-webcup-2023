@@ -227,12 +227,12 @@ const Footer = () => {
 								<ul>
 									<li>
 										<Link href="/terms-conditions">
-											Terms & Conditions
+											Condition génerale d'utilisation
 										</Link>
 									</li>
 									<li>
 										<Link href="/privacy-policy">
-											Politique de confidentialite
+											Politique de confidentialité
 										</Link>
 									</li>
 								</ul>
