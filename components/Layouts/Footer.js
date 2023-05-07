@@ -30,7 +30,7 @@ const Footer = () => {
 									des experts et des personnes intéressées par
 									les rêves du monde entier pour étudier la
 									signification et l'importance des rêves dans
-									nos vies à fin de dévélopper des technologies inovantes.
+									nos vies à fin de développer des technologies innovantes.
 								</p>
 
 								<ul className="social-icon">
