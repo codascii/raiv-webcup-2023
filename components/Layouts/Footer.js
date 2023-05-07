@@ -242,12 +242,20 @@ const Footer = () => {
 						<div className="col-lg-3">
 							<div className="designed">
 								<p>
-									Designed By <i className="bx bx-heart"></i>{" "}
+									Designed with{" "}
+									<i className="bx bx-heart"></i> By{" "}
 									<a
-										href="https://raivnumerique.mayotte.webcup.hodi.host/"
+										href="https://www.facebook.com/Raivahibe976"
 										target="_blank"
 									>
-										RAIV & HOUMADEV
+										RAIV
+									</a>{" "}
+									&amp;{" "}
+									<a
+										href="https://www.linkedin.com/company/houmadev"
+										target="_blank"
+									>
+										HOUMADEV
 									</a>
 								</p>
 							</div>
