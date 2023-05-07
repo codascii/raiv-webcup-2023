@@ -56,7 +56,7 @@ const CaseStudies = () => {
 
                 <h3>
                   <Link href="/case-studies-details?case=technologie&img=case1">
-                  La technologie émergente de...
+                  L'IA generatife...
                   </Link>
                 </h3>
               </div>
@@ -80,7 +80,7 @@ const CaseStudies = () => {
 								</div>
 
                 <h3>
-                  <Link href="/case-studies-details?case=IA&img=case2">Une IA « qui essaie de...</Link>
+                  <Link href="/case-studies-details?case=IA&img=case2">La technologie emergergente...</Link>
                 </h3>
               </div>
             </SwiperSlide>
