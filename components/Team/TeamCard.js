@@ -3,8 +3,8 @@ import React from "react";
 const teamData = [
   {
     image: "/images/team/team1.png",
-    name: "Karen Peter",
-    designation: "CEO & Founder",
+    name: "Youssef Maklouche",
+    designation: "Analyste",
     aosDelay: "100",
 
     socialLinks: [
@@ -28,7 +28,7 @@ const teamData = [
   },
   {
     image: "/images/team/team2.png",
-    name: "Alex Piter",
+    name: "Alex Landi",
     designation: "Executive",
     aosDelay: "200",
 
@@ -53,8 +53,8 @@ const teamData = [
   },
   {
     image: "/images/team/team3.png",
-    name: "Alisa Maria",
-    designation: "Web Developer",
+    name: "Christophe Jordy",
+    designation: "Médecin",
     aosDelay: "300",
 
     socialLinks: [
@@ -78,8 +78,8 @@ const teamData = [
   },
   {
     image: "/images/team/team4.png",
-    name: "Peter Jack",
-    designation: "UI/UX Designer",
+    name: "Olivier Martin",
+    designation: "Pédiatre",
     aosDelay: "400",
 
     socialLinks: [
@@ -103,8 +103,8 @@ const teamData = [
   },
   {
     image: "/images/team/team5.png",
-    name: "Anna Dew",
-    designation: "React Developer",
+    name: "Anthony Larchal",
+    designation: "Biologiste",
     aosDelay: "500",
 
     socialLinks: [
@@ -128,8 +128,8 @@ const teamData = [
   },
   {
     image: "/images/team/team6.png",
-    name: "Zeck Keath",
-    designation: "Angular Developer",
+    name: "Jacques Laurence",
+    designation: "Manager division scientifique",
     aosDelay: "600",
 
     socialLinks: [
@@ -153,8 +153,8 @@ const teamData = [
   },
   {
     image: "/images/team/team7.png",
-    name: "Zeet Pew",
-    designation: "Wed Developer",
+    name: "Éloïse Marta",
+    designation: "Directrice de la communication",
     aosDelay: "700",
 
     socialLinks: [
@@ -178,8 +178,8 @@ const teamData = [
   },
   {
     image: "/images/team/team8.png",
-    name: "Peter Jack",
-    designation: "Web Developer",
+    name: "Yve Luka",
+    designation: "Consultant",
     aosDelay: "800",
 
     socialLinks: [
