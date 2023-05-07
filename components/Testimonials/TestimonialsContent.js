@@ -3,10 +3,10 @@ import React from "react";
 const testimonialsData = [
   {
     image: "/images/clients/client1.jpg",
-    name: "Alen Meair",
-    designation: "Web Developer",
+    name: "Alain Delon",
+    designation: "Développeur web",
     feedbackText:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit,do eiusmod tempor incididunt ut labore et dolore.",
+      "Le développement web est un domaine dans lequel on se voit progresser au fil du temps, on sent que l’on passe des paliers.",
 
     rating: [
       {
@@ -28,10 +28,10 @@ const testimonialsData = [
   },
   {
     image: "/images/clients/client2.jpg",
-    name: "Axon Detos",
-    designation: "CEO of ET",
+    name: "Catherine Jackson",
+    designation: "Directeur général d'IT",
     feedbackText:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit,do eiusmod tempor incididunt ut labore et dolore.",
+      "Je pense que l'IA est une technologie prometteuse qui peut aider les entreprises à être plus efficaces et plus innovantes.",
 
     rating: [
       {
@@ -53,10 +53,10 @@ const testimonialsData = [
   },
   {
     image: "/images/clients/client3.jpg",
-    name: "John Dona",
+    name: "Louix Delaroute",
     designation: "UI/UX Designer",
     feedbackText:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit,do eiusmod tempor incididunt ut labore et dolore.",
+      "L'IA a certainement amélioré l'efficacité et la personnalisation de nos conceptions, mais elle a également créé de nouveaux défis .",
 
     rating: [
       {
@@ -78,10 +78,10 @@ const testimonialsData = [
   },
   {
     image: "/images/clients/client4.jpg",
-    name: "Jon Smith",
+    name: "Justine Sarkozy",
     designation: "ReactJS Developer",
     feedbackText:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit,do eiusmod tempor incididunt ut labore et dolore.",
+      "En tant que développeur ReactJS, j'ai travaillé sur projets qui ont intégré l'IA pour améliorer la convivialité et la performance de nos applications.",
 
     rating: [
       {
@@ -103,10 +103,10 @@ const testimonialsData = [
   },
   {
     image: "/images/clients/client5.jpg",
-    name: "Dew Smith",
+    name: "Didier Roguero",
     designation: "UI/UX Designer",
     feedbackText:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit,do eiusmod tempor incididunt ut labore et dolore.",
+      "L'IA a certainement amélioré l'efficacité et la personnalisation de nos conceptionspour de nouveaux défis",
 
     rating: [
       {
@@ -128,10 +128,10 @@ const testimonialsData = [
   },
   {
     image: "/images/clients/client6.jpg",
-    name: "Jeath Smith",
-    designation: "SEO Developer",
+    name: "Hector Simon",
+    designation: "Optimisation pour les moteurs de recherche",
     feedbackText:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit,do eiusmod tempor incididunt ut labore et dolore.",
+      "En tant que spécialiste du référencement, j'ai travaillé sur des projets qui ont utilisé l'IA pour améliorer les performances SEO des sites web.",
 
     rating: [
       {
@@ -153,10 +153,10 @@ const testimonialsData = [
   },
   {
     image: "/images/clients/client7.jpg",
-    name: "Kilkaz Dew",
+    name: "Davide Dev",
     designation: "UI/UX Designer",
     feedbackText:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit,do eiusmod tempor incididunt ut labore et dolore.",
+      "En tant que web designer, j'ai travaillé sur des projets qui ont intégré l'IA pour améliorer la convivialité et la performance des sites web. ",
 
     rating: [
       {
@@ -178,10 +178,10 @@ const testimonialsData = [
   },
   {
     image: "/images/clients/client8.jpg",
-    name: "Ana Deth",
-    designation: "PHP Developer",
+    name: "Herver Lefevre",
+    designation: "Developpeur PHP",
     feedbackText:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit,do eiusmod tempor incididunt ut labore et dolore.",
+      "En tant que développeur chez HP, j'ai l'occasion de travailler sur l'IA pour améliorer l'efficacité et la convivialité de nos produits.",
 
     rating: [
       {
@@ -203,10 +203,10 @@ const testimonialsData = [
   },
   {
     image: "/images/clients/client9.jpg",
-    name: "Zeck Smith",
-    designation: "Founder CEO",
+    name: "Valantin Dubois",
+    designation: "PDG fondateur",
     feedbackText:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit,do eiusmod tempor incididunt ut labore et dolore.",
+      "L'IA pour automatiser nos opérations,cette technologie peut améliorer considérablement la précision et la rentabilité de nos activités.",
 
     rating: [
       {
@@ -272,15 +272,6 @@ const TestimonialsContent = () => {
                     <li className="page-item active">
                       <a className="page-link">1</a>
                     </li>
-
-                    <li className="page-item">
-                      <a className="page-link">2</a>
-                    </li>
-
-                    <li className="page-item">
-                      <a className="page-link">3</a>
-                    </li>
-
                     <li className="page-item">
                       <a className="page-link">
                         <i className="bx bx-chevrons-right"></i>
