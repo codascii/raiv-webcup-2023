@@ -81,7 +81,7 @@ const WhatWeOffer = () => {
 									>
 										<span>
 											<i className="flaticon-automation"></i>
-											<h3>La programation</h3>
+											<h3>La programmation</h3>
 											{/* <p>All kind of industry</p> */}
 										</span>
 									</li>
@@ -111,7 +111,8 @@ const WhatWeOffer = () => {
 														scientifiques de mieux
 														comprendre le
 														fonctionnement du
-														cerveau et de la mémoire
+														cerveau et de la
+														mémoire.
 													</p>
 													<p>
 														En effet, la mémoire
@@ -131,56 +132,14 @@ const WhatWeOffer = () => {
 														développer des
 														algorithmes
 														d'apprentissage
-														automatique qui
-														permettent à Onirix
-														d'analyser et de
+														automatique. Ces
+														derniers permettent à
+														Onirix d'analyser, de
 														reconnaître les motifs
 														du rêve et de les
 														interpréter de manière
 														cohérente.
 													</p>
-
-													{/* <div className="row">
-                                                <div className="col-lg-6 col-sm-6">
-                                                    <ul className="industries-item">
-                                                        <li>
-                                                            <i className="flaticon-checked"></i>
-                                                            Opportunities
-                                                        </li>
-                                                        <li>
-                                                            <i className="flaticon-checked"></i>
-                                                            Creating
-                                                        </li>
-                                                        <li>
-                                                            <i className="flaticon-checked"></i>
-                                                            Industries
-                                                        </li>
-                                                    </ul>
-                                                </div>
-
-                                                <div className="col-lg-6 col-sm-6">
-                                                    <ul className="industries-item">
-                                                        <li>
-                                                            <i className="flaticon-checked"></i>
-                                                            Security
-                                                        </li>
-                                                        <li>
-                                                            <i className="flaticon-checked"></i>
-                                                            Highest
-                                                        </li>
-                                                        <li>
-                                                            <i className="flaticon-checked"></i>
-                                                            Priority
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-
-                                            <div className="text-center">
-                                                <Link href="/services" className="default-btn">
-                                                Discover More
-                                                </Link>
-                                            </div> */}
 												</div>
 											</div>
 										</div>
@@ -195,25 +154,24 @@ const WhatWeOffer = () => {
 														La psychologie humaine
 													</h3>
 													<p>
-														la psychologie humaine a
+														La psychologie humaine a
 														permis de comprendre les
 														différentes phases du
-														sommeil et de la
-														rêverie, ce qui a permis
-														de développer Onirix en
-														tant qu'outil
-														d'interprétation des
-														rêves.
+														sommeil et des rêves.
+														Cela a permis de
+														développer Onirix comme
+														outil d'interprétation
+														des rêves.
 													</p>
 													<p>
-														En comprenant mieux les
-														mécanismes et les motifs
-														des rêves, Onirix peut
-														aider les utilisateurs à
-														mieux comprendre leurs
-														propres rêves et à en
-														tirer des informations
-														utiles.
+														En comprenant davantage
+														les mécanismes et les
+														motifs des rêves, Onirix
+														peut aider les
+														utilisateurs à mieux
+														comprendre leurs propres
+														rêves et à en tirer des
+														informations utiles.
 													</p>
 													<p>
 														De plus, l'étude de la
@@ -228,48 +186,6 @@ const WhatWeOffer = () => {
 														personnalisées et
 														pertinentes.
 													</p>
-
-													{/* <div className="row">
-                                                <div className="col-lg-6 col-sm-6">
-                                                    <ul className="industries-item">
-                                                        <li>
-                                                            <i className="flaticon-checked"></i>
-                                                            Security
-                                                        </li>
-                                                        <li>
-                                                            <i className="flaticon-checked"></i>
-                                                            Highest
-                                                        </li>
-                                                        <li>
-                                                            <i className="flaticon-checked"></i>
-                                                            Priority
-                                                        </li>
-                                                    </ul>
-                                                </div>
-
-                                                <div className="col-lg-6 col-sm-6">
-                                                    <ul className="industries-item">
-                                                        <li>
-                                                            <i className="flaticon-checked"></i>
-                                                            Opportunities
-                                                        </li>
-                                                        <li>
-                                                            <i className="flaticon-checked"></i>
-                                                            Creating
-                                                        </li>
-                                                        <li>
-                                                            <i className="flaticon-checked"></i>
-                                                            Industries
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-
-                                            <div className="text-center">
-                                                <Link href="/services" className="default-btn">
-                                                Discover More
-                                                </Link>
-                                            </div> */}
 												</div>
 											</div>
 
@@ -300,7 +216,7 @@ const WhatWeOffer = () => {
 												<div className="industries-content">
 													<h3>La médecine</h3>
 													<p>
-														La médecine a contribué
+														La médecine a contribuée
 														à la création d'Onirix
 														en fournissant des
 														connaissances sur le
@@ -324,7 +240,7 @@ const WhatWeOffer = () => {
 														efficace.
 													</p>
 													<p>
-														Elle peut aider les
+														Onirix peut aider les
 														professionnels de la
 														santé à interpréter les
 														rêves de leurs patients
@@ -333,48 +249,6 @@ const WhatWeOffer = () => {
 														leur traitement en
 														conséquence.
 													</p>
-
-													{/* <div className="row">
-                                                <div className="col-lg-6 col-sm-6">
-                                                    <ul className="industries-item">
-                                                        <li>
-                                                            <i className="flaticon-checked"></i>
-                                                            Creating
-                                                        </li>
-                                                        <li>
-                                                            <i className="flaticon-checked"></i>
-                                                            Consectetur
-                                                        </li>
-                                                        <li>
-                                                            <i className="flaticon-checked"></i>
-                                                            Adipisicing
-                                                        </li>
-                                                    </ul>
-                                                </div>
-
-                                                <div className="col-lg-6 col-sm-6">
-                                                    <ul className="industries-item">
-                                                        <li>
-                                                            <i className="flaticon-checked"></i>
-                                                            Artificial
-                                                        </li>
-                                                        <li>
-                                                            <i className="flaticon-checked"></i>
-                                                            Industry
-                                                        </li>
-                                                        <li>
-                                                            <i className="flaticon-checked"></i>
-                                                            Opportunities
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-
-                                            <div className="text-center">
-                                                <Link href="/services" className="default-btn">
-                                                Discover More
-                                                </Link>
-                                            </div>*/}
 												</div>
 											</div>
 										</div>
@@ -387,15 +261,14 @@ const WhatWeOffer = () => {
 												<div className="industries-content">
 													<h3>La programmation</h3>
 													<p>
-														La recherche en
-														programmation a permis
-														de développer Onirix en
+														La R&D a permis de
+														développer Onirix en
 														fournissant des
 														algorithmes
 														d'apprentissage
 														automatique et de
 														traitement du langage
-														naturel, qui sont des
+														naturel qui sont des
 														composants clés de l'IA.
 													</p>
 													<p>
@@ -407,8 +280,7 @@ const WhatWeOffer = () => {
 														précise et cohérente.
 													</p>
 													<p>
-														La recherche en
-														programmation continue
+														La R&D continue
 														également de jouer un
 														rôle important dans
 														l'amélioration et la

@@ -4,10 +4,9 @@ import Link from "next/link";
 const servicesData = [
 	{
 		iconName: "flaticon-chip",
-		title: "Dans la psychologie",
+		title: "En psychologie",
 		shortText:
 			"Notre intélligence artificielle pourrait aider à interpréter les rêves pour des besions thérapeutique.",
-		viewDetails: "/service-details",
 		aosDelay: "100",
 	},
 	{
@@ -15,7 +14,6 @@ const servicesData = [
 		title: "La créativité",
 		shortText:
 			"Onirix pourrait être utilisé comme source d'inspiration pour les écrivains, les artistes et les cinéastes.",
-		viewDetails: "/service-details",
 		aosDelay: "200",
 	},
 	{
@@ -23,7 +21,6 @@ const servicesData = [
 		title: "La sécurité",
 		shortText:
 			"L'intelligence articifielle peut être utilisé afin de prévenir des accidents ou des catastrophes naturelles.",
-		viewDetails: "/service-details",
 		aosDelay: "300",
 	},
 	{
@@ -31,23 +28,20 @@ const servicesData = [
 		title: "En marketing",
 		shortText:
 			"Permettre une meilleure compréhension des préférences et des désirs des consommateurs.",
-		viewDetails: "/service-details",
 		aosDelay: "400",
 	},
 	{
 		iconName: "flaticon-choice",
-		title: "Les statistique",
+		title: "Les statistiques",
 		shortText:
 			"Notre IA permet d'alimenter des bases de données pour réaliser des statistiques sur les rêves.",
-		viewDetails: "/service-details",
 		aosDelay: "500",
 	},
 	{
 		iconName: "flaticon-deep-learning",
 		title: "La recherche",
 		shortText:
-			"la recherche scientifique pour étudier les processus mentaux impliqués dans la production des rêves.",
-		viewDetails: "/service-details",
+			"Rechercher scientifiquement et étudier les processus mentaux impliqués dans la production des rêves.",
 		aosDelay: "600",
 	},
 ];
@@ -57,11 +51,11 @@ const Services = () => {
 		<section className="offer-area pt-100 pb-70">
 			<div className="container">
 				<div className="section-title">
-					<span>Domaine d'application</span>
-					<h2>D'autres domaines d'application pour Onirix</h2>
+					<span>Domaines d'applications</span>
+					<h2>D'autres domaines d'applications pour Onirix</h2>
 					<p>
 						En plus de son fonctionnement d'origine, d'autres
-						domaines d'application pourraient être envisagés afin
+						domaines d'applications pourraient être envisagés afin
 						d'exploiter au mieux les capacités de cette IA, et ainsi
 						répondre à un large éventail de besoins.
 					</p>
@@ -79,11 +73,7 @@ const Services = () => {
 							>
 								<div className="single-offer">
 									<i className={value.iconName}></i>
-									<h3>
-										<Link href={value.viewDetails}>
-											{value.title}
-										</Link>
-									</h3>
+									<h3>{value.title}</h3>
 									<p>{value.shortText}</p>
 								</div>
 							</div>

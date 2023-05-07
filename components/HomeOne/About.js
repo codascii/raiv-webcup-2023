@@ -28,10 +28,10 @@ const About = () => {
 								<span>Rêve ou avenir</span>
 								<h2>
 									Chaque rêve est analysé avec une attention
-									particulière aux besoins de l'utilisateur
+									particulière
 								</h2>
 								<p>
-									À l'Institut International des Rêves, nous
+									À l'Institut International des rêves, nous
 									considérons que chaque rêve est unique et
 									que son interprétation doit être
 									personnalisée tout en prévenant les risques

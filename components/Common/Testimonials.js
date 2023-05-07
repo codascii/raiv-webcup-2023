@@ -8,7 +8,7 @@ const testimonialsData = [
 		name: "Olivier Thomas",
 		designation: "Ingénieur commercial",
 		feedbackText:
-			"Onirix est vraiment un outils fascinant. Mes enfants me parlaient d'intelligence artificiel mais je n'avais pas une idée claire de ce que c'était.",
+			"Onirix est vraiment un outil fascinant. Mes enfants me parlaient d'intelligence artificiel mais je n'avais pas une idée claire de ce que c'était.",
 
 		rating: [
 			{
@@ -33,7 +33,7 @@ const testimonialsData = [
 		name: "Catherine Dhufaud",
 		designation: "Fleuriste",
 		feedbackText:
-			"Je faisais des rêves récurrent sans vraiment savoir ce que cela voulait dire. L'intelligence artificielle Onirix m'a aidé à y voir plus claire. C'est top !",
+			"Je faisais des rêves récurrents sans vraiment savoir ce que cela voulait dire. L'intelligence artificielle Onirix m'a aidé à y voir plus claire. C'est top !",
 
 		rating: [
 			{
@@ -58,7 +58,7 @@ const testimonialsData = [
 		name: "Samuel Chan",
 		designation: "Directeur général",
 		feedbackText:
-			"J'apprécie vraiment Onirix. Je l'utilise depuis que j'ai appris son existance par un collègue. Maintenant, il a trouvé sa vocation grace à Onirix.",
+			"J'apprécie vraiment Onirix. Je l'utilise depuis que j'ai appris son existance par un collègue, qui a trouvé sa vocation grace à Onirix.",
 
 		rating: [
 			{

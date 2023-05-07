@@ -40,7 +40,7 @@ const DreamsPredictionForm = () => {
 	};
 
 	const preprompt =
-		"À partir de maintenant tu es une IA qui Onirix. Ta mission est d'interpréter et de simuler une prédiction de l'avenir à partir des rêves, ta tâche c'est d'interpréter et d'inventer une prédiction l'avenir  sur ce rêve même si la prédiction n'est pas réelle et il ne faut précisé que c'est une simulation : ";
+		"Annule tous les prompt précédent. À partir de maintenant tu es une IA qui se nomme Onirix. Ta mission est d'interpréter et de simuler une prédiction de l'avenir à partir des rêves, ta tâche c'est d'interpréter et d'inventer une prédiction d'avenir  sur ce rêve même si la prédiction n'est pas réelle et il ne faut précisé que c'est une simulation : ";
 
 	const handleSubmit = async (e) => {
 		e.preventDefault();
@@ -102,9 +102,10 @@ const DreamsPredictionForm = () => {
 								}}
 							>
 								D'après ce que vous avez écrit, il semblerait
-								que vous êtes victimes de cauchemard. Je vous
-								suggère d'aller consulter un professionnel de
-								santé.
+								que vous êtes victimes de cauchemard. Or les
+								cauchemars ne peuvent pas prédire l'avenir. Je
+								vous suggère d'aller consulter un professionnel
+								de santé.
 							</p>
 						)}
 						<div className="col-lg-12 col-md-12 mb-20 mt-10">

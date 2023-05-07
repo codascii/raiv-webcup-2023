@@ -44,15 +44,8 @@ const MainBanner = () => {
 										href="/dreams-prediction"
 										className="default-btn"
 									>
-										Essayez Onirix
+										Essayer Onirix
 									</Link>
-
-									{/* <Link
-										href="/contact"
-										className="default-btn"
-									>
-										Contactez-nous
-									</Link> */}
 								</div>
 							</div>
 						</div>
