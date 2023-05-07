@@ -47,7 +47,7 @@ const CaseStudies = () => {
 									/>
 
 									<Link
-										href="/case-studies-details"
+										href="/case-studies-details?case=technologie&img=case1"
 										className="link-icon"
 									>
 										<i className="bx bx-plus"></i>
@@ -55,8 +55,8 @@ const CaseStudies = () => {
 								</div>
 
 								<h3>
-									<Link href="/case-studies-details">
-										Avez-vous peur que...
+									<Link href="/case-studies-details?case=technologie&img=case1">
+										L'IA génerative...
 									</Link>
 								</h3>
 							</div>
@@ -72,7 +72,7 @@ const CaseStudies = () => {
 									/>
 
 									<Link
-										href="/case-studies-details"
+										href="/case-studies-details?case=IA&img=case2"
 										className="link-icon"
 									>
 										<i className="bx bx-plus"></i>
@@ -80,8 +80,8 @@ const CaseStudies = () => {
 								</div>
 
 								<h3>
-									<Link href="/case-studies-details">
-										IA et Retail : comment...
+									<Link href="/case-studies-details?case=IA&img=case2">
+										La technologie emergergente...
 									</Link>
 								</h3>
 							</div>
@@ -97,7 +97,7 @@ const CaseStudies = () => {
 									/>
 
 									<Link
-										href="/case-studies-details"
+										href="/case-studies-details?case=tuer&img=case3"
 										className="link-icon"
 									>
 										<i className="bx bx-plus"></i>
@@ -105,8 +105,8 @@ const CaseStudies = () => {
 								</div>
 
 								<h3>
-									<Link href="/case-studies-details">
-										Onirix fait preuve de plus...
+									<Link href="/case-studies-details?case=tuer&img=case3">
+										Une IA « qui essaie de...
 									</Link>
 								</h3>
 							</div>
@@ -122,7 +122,7 @@ const CaseStudies = () => {
 									/>
 
 									<Link
-										href="/case-studies-details"
+										href="/case-studies-details?case=gagner&img=case4"
 										className="link-icon"
 									>
 										<i className="bx bx-plus"></i>
@@ -130,8 +130,8 @@ const CaseStudies = () => {
 								</div>
 
 								<h3>
-									<Link href="/case-studies-details">
-										L’IA générative a déjà...
+									<Link href="/case-studies-details?case=gagner&img=case4">
+										Elle a gagné 2 prix avec...
 									</Link>
 								</h3>
 							</div>
