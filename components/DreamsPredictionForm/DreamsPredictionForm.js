@@ -65,7 +65,8 @@ const DreamsPredictionForm = () => {
 					},
 				});
 				setData(response.data.choices[0].text);
-				setContact(INITIAL_STATE);
+				// Pour garder le texte tapé par l'utilisateur
+				// setContact(INITIAL_STATE);
 
 				setIsFetchingData(false);
 				// alertContent();

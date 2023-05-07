@@ -33,7 +33,7 @@ const testimonialsData = [
 		name: "Catherine Dhufaud",
 		designation: "Fleuriste",
 		feedbackText:
-			"Je faisais des rêves récurrents sans vraiment savoir ce que cela voulait dire. L'intelligence artificielle Onirix m'a aidé à y voir plus claire. C'est top !",
+			"Je faisais des rêves récurrents sans vraiment savoir ce que cela voulait dire. L'intelligence artificielle Onirix m'a aidé à y voir plus claire.'",
 
 		rating: [
 			{
