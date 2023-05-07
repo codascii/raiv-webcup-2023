@@ -10,10 +10,10 @@ export default function Testimonials() {
       <Navbar />
 
       <PageBanner
-        pageTitle="Testimonials"
+        pageTitle="Témoignages"
         homePageUrl="/"
-        homePageText="Home"
-        activePageText="Testimonials"
+        homePageText="Accueil"
+        activePageText="Témoignages"
       />
 
       <TestimonialsContent />

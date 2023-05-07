@@ -8,7 +8,7 @@ const servicesDetailData = [
 	{
 		key: "psychologie",
 		image: "psychologie",
-		secondaryImage: "",
+		secondaryImage: "psyco-miniature",
 		title: "La psychologie",
 		subtitle:
 			"Comprendre le pouvoir de la psychologie pour interpréter les rêves avec Onirix",
@@ -24,7 +24,7 @@ const servicesDetailData = [
 	{
 		key: "ui-ux-design",
 		image: "UI-UX",
-		secondaryImage: "",
+		secondaryImage: "UI-UX-miniature",
 		title: "UI/UX Design",
 		subtitle:
 			"Onirix : une expérience utilisateur fluide et intuitive pour l'analyse des rêves grâce à un design UI/UX bien pensé",
@@ -39,7 +39,7 @@ const servicesDetailData = [
 	{
 		key: "creativity",
 		image: "creativiter",
-		secondaryImage: "",
+		secondaryImage: "creativiter-miniature",
 		title: "La créativité",
 		subtitle: "Libérez votre créativité avec l'IA avancée d'ONIRIX",
 		content: [
@@ -54,7 +54,7 @@ const servicesDetailData = [
 	{
 		key: "marketing",
 		image: "marketing",
-		secondaryImage: "",
+		secondaryImage: "marketin-miniature",
 		title: "Marketing",
 		subtitle:
 			"Comment ONIRIX utilise-t-il le marketing pour atteindre plus de personnes ?",
@@ -69,7 +69,7 @@ const servicesDetailData = [
 	{
 		key: "ingeniering",
 		image: "production",
-		secondaryImage: "",
+		secondaryImage: "production-miniature",
 		title: "L'ingénierie de production",
 		subtitle:
 			"De l'élaboration à la production: comment Onirix déploie son IA avancée pour aider les utilisateurs à comprendre leurs rêves",
@@ -86,7 +86,7 @@ const servicesDetailData = [
 	{
 		key: "research",
 		image: "searching",
-		secondaryImage: "",
+		secondaryImage: "searching-miniature",
 		title: "La recherche",
 		subtitle:
 			"Trouvez des réponses à vos rêves grâce à l'algorithme de recherche intelligent d'Onirix",
