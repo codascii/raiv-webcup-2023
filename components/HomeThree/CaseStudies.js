@@ -81,7 +81,7 @@ const CaseStudies = () => {
 
 								<h3>
 									<Link href="/case-studies-details?case=IA&img=case2">
-										La technologie emergergente...
+										La technologie émergente...
 									</Link>
 								</h3>
 							</div>

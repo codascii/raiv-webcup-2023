@@ -35,7 +35,7 @@ const caseStudiesDetailData = [
 	{
 		key: "IA",
 		image: "image-ai1",
-		title: "L'intelligence artificielle",
+		title: "La technologie émergente",
 		subtitle: "",
 		content: [
 			"La technologie émergente de l'intelligence artificielle, ou IA, croise plusieurs techniques simulant les processus cognitifs humains. Existant depuis les années 60, la recherche s'est développée récemment au point de multiplier les applications: voitures autonomes, diagnostics médicaux, assistants personnels, finance algorithmique, robots industriels, jeux vidéo... L'explosion de la puissance de calcul des machines a fait basculer l'IA, dans les années 2010, d'un classique de science-fiction à une réalité de plus en plus proche, devenue enjeu scientifique majeur. Deep-learning, algorithmes de réseaux néronaux ou encore ordinateurs quantiques: autant d'espoirs pour les transhumanistes, autant de craintes pour de nombreuses personnalités du monde high-tech -dont Stephen Hawking, Bill Gates ou Elon Musk- qui pointent les risques éthiques d'une IA rendue trop autonome ou consciente, et le fragile équilibre bénéfices-risques sur l'emploi.",
