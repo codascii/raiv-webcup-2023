@@ -5,20 +5,20 @@ import TeamCard from "../components/Team/TeamCard";
 import Footer from "../components/Layouts/Footer";
 
 export default function Team() {
-  return (
-    <>
-      <Navbar />
+	return (
+		<>
+			<Navbar />
 
-      <PageBanner
-        pageTitle="Team"
-        homePageUrl="/"
-        homePageText="Home"
-        activePageText="Team"
-      />
+			<PageBanner
+				pageTitle="Équipe de l'institut international des rêves"
+				homePageUrl="/"
+				homePageText="Accueil"
+				activePageText="Équipe"
+			/>
 
-      <TeamCard />
+			<TeamCard />
 
-      <Footer />
-    </>
-  );
+			<Footer />
+		</>
+	);
 }
