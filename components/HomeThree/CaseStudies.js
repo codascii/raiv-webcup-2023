@@ -47,20 +47,20 @@ const CaseStudies = () => {
 									/>
 
 									<Link
-										href="/case-studies-details"
+										href="/case-studies-details?case=technologie&img=case1"
 										className="link-icon"
 									>
 										<i className="bx bx-plus"></i>
 									</Link>
 								</div>
 
-                <h3>
-                  <Link href="/case-studies-details?case=technologie&img=case1">
-                  La technologie émergente de...
-                  </Link>
-                </h3>
-              </div>
-            </SwiperSlide>
+								<h3>
+									<Link href="/case-studies-details?case=technologie&img=case1">
+										La technologie émergente de...
+									</Link>
+								</h3>
+							</div>
+						</SwiperSlide>
 
 						<SwiperSlide>
 							<div className="case-wrap">
@@ -72,18 +72,20 @@ const CaseStudies = () => {
 									/>
 
 									<Link
-										href="/case-studies-details"
+										href="/case-studies-details?case=IA&img=case2"
 										className="link-icon"
 									>
 										<i className="bx bx-plus"></i>
 									</Link>
 								</div>
 
-                <h3>
-                  <Link href="/case-studies-details?case=IA&img=case2">Une IA « qui essaie de...</Link>
-                </h3>
-              </div>
-            </SwiperSlide>
+								<h3>
+									<Link href="/case-studies-details?case=IA&img=case2">
+										Une IA « qui essaie de...
+									</Link>
+								</h3>
+							</div>
+						</SwiperSlide>
 
 						<SwiperSlide>
 							<div className="case-wrap">
@@ -95,18 +97,20 @@ const CaseStudies = () => {
 									/>
 
 									<Link
-										href="/case-studies-details"
+										href="/case-studies-details?case=tuer&img=case3"
 										className="link-icon"
 									>
 										<i className="bx bx-plus"></i>
 									</Link>
 								</div>
 
-                <h3>
-                  <Link href="/case-studies-details?case=tuer&img=case3">Une IA « qui essaie de...</Link>
-                </h3>
-              </div>
-            </SwiperSlide>
+								<h3>
+									<Link href="/case-studies-details?case=tuer&img=case3">
+										Une IA « qui essaie de...
+									</Link>
+								</h3>
+							</div>
+						</SwiperSlide>
 
 						<SwiperSlide>
 							<div className="case-wrap">
@@ -118,25 +122,25 @@ const CaseStudies = () => {
 									/>
 
 									<Link
-										href="/case-studies-details"
+										href="/case-studies-details?case=gagner&img=case4"
 										className="link-icon"
 									>
 										<i className="bx bx-plus"></i>
 									</Link>
 								</div>
 
-                <h3>
-                  <Link href="/case-studies-details?case=gagner&img=case4">
-                  Elle a gagné 2 prix avec...
-                  </Link>
-                </h3>
-              </div>
-            </SwiperSlide>
-          </Swiper>
-        </div>
-      </section>
-    </>
-  );
+								<h3>
+									<Link href="/case-studies-details?case=gagner&img=case4">
+										Elle a gagné 2 prix avec...
+									</Link>
+								</h3>
+							</div>
+						</SwiperSlide>
+					</Swiper>
+				</div>
+			</section>
+		</>
+	);
 };
 
 export default CaseStudies;
