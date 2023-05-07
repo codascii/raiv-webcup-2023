@@ -81,7 +81,7 @@ const servicesDetailData = [
 			"Le succès de la mise en production dépend également de l'adoption et de la satisfaction des utilisateurs. ONIRIX s'efforce donc de fournir une expérience utilisateur exceptionnelle en offrant un support client de qualité, en écoutant les commentaires des utilisateurs et en apportant des améliorations continues à l'IA.",
 			"En somme, la mise en production d'ONIRIX est une étape cruciale pour offrir aux utilisateurs une expérience de rêve unique. Elle exige une planification minutieuse, une grande expertise technique et un engagement continu envers l'amélioration et la satisfaction des utilisateurs.",
 		],
-		secondaryContent: ["Inspiration", "Créativité"],
+		secondaryContent: ["Inspiration", "Industrie"],
 	},
 	{
 		key: "research",
@@ -97,7 +97,7 @@ const servicesDetailData = [
 			"L'un des avantages de l'algorithme de recherche de ONIRIX est sa capacité à apprendre en temps réel. Plus les utilisateurs entrent de descriptions de rêves dans la base de données, plus l'algorithme devient précis et efficace dans ses recommandations et ses recherches.",
 			"En résumé, l'algorithme de recherche de ONIRIX est un outil puissant qui permet d'analyser et de trouver des correspondances entre des milliers de descriptions de rêves. Cela permet à la plateforme de fournir des résultats pertinents et précis, tout en continuant d'apprendre et de s'adapter en temps réel.",
 		],
-		secondaryContent: ["Recherche & Développement", "Langue"],
+		secondaryContent: ["Recherche & Développement", "Analyse"],
 	},
 ];
 
