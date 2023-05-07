@@ -25,15 +25,12 @@ const About = () => {
                 data-aos-duration="1200"
                 data-aos-delay="500"
               >
-                <span>About Us</span>
+                <span>C'est quoi Onirix ?</span>
                 <h2>
-                  We Complete Every Project With Extra Care As Customer Need
+                ONIRIX : L'IA avancée qui décrypte le sens caché de vos rêves pour prédire l'avenir
                 </h2>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Quis ipsum suspendisse ultrices gravida. Risus commodo viverra
-                  maecenas accumsan lacus vel.
+                ONIRIX est une intelligence artificielle avancée développée par l'Institut International des Rêves pour aider les gens à mieux comprendre la signification et les implications de leurs rêves. En utilisant une combinaison de techniques d'apprentissage automatique et de traitement du langage naturel, ONIRIX est capable d'analyser des milliers de descriptions de rêves et de détecter des modèles et des tendances qui peuvent fournir des indices sur l'avenir.
                 </p>
 
                 <div className="row">
@@ -41,15 +38,15 @@ const About = () => {
                     <ul>
                       <li>
                         <i className="flaticon-checked"></i>
-                        Advanced caching
+                        Innovant
                       </li>
                       <li>
                         <i className="flaticon-checked"></i>
-                        Unlimited applications
+                        Gratuit a vis
                       </li>
                       <li>
                         <i className="flaticon-checked"></i>
-                        PHP 7 ready transfer
+                        Puissant
                       </li>
                     </ul>
                   </div>
@@ -58,22 +55,22 @@ const About = () => {
                     <ul>
                       <li>
                         <i className="flaticon-checked"></i>
-                        PHP ready serves
+                        Infaillible
                       </li>
                       <li>
                         <i className="flaticon-checked"></i>
-                        24/7 free extra support
+                        Assitance 24/7
                       </li>
                       <li>
                         <i className="flaticon-checked"></i>
-                        Optimized stack
+                        Empilement optimisé
                       </li>
                     </ul>
                   </div>
                 </div>
 
-                <Link href="/about-1" className="default-btn">
-                  Learn More
+                <Link href="/dreams-prediction" className="default-btn">
+                  Essayer Onirix
                 </Link>
               </div>
             </div>

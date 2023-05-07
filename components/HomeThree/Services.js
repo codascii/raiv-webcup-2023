@@ -4,41 +4,41 @@ import Link from "next/link";
 const servicesData = [
   {
     iconName: "flaticon-chip",
-    title: "Robotics & Drones",
+    title: "Intelligence artificielle ",
     shortText:
-      "Lorem consectetur ipsum dolor sit amet, adipiscing elit, do eiusmod tempor incididunt sed.",
+      "Utilisez Onirix pour découvrir des insights profonds et prédire l'avenir en décodant vos rêves.",
     viewDetails: "/service-details",
     aosDelay: "100",
   },
   {
     iconName: "flaticon-vr",
-    title: "Virtually Reality",
+    title: "Réalité augmenter",
     shortText:
-      "Lorem consectetur ipsum dolor sit amet, adipiscing elit, do eiusmod tempor incididunt sed.",
+      "Onirix est une intelligence artificielle avancée qui utilise la réalité augmentée pour aider à interpréter les rêves des utilisateurs. ",
     viewDetails: "/service-details",
     aosDelay: "200",
   },
   {
     iconName: "flaticon-blockchain",
-    title: "Blockchain Project",
+    title: "Big data",
     shortText:
-      "Lorem consectetur ipsum dolor sit amet, adipiscing elit, do eiusmod tempor incididunt sed.",
+      "Onirix utilise la big data pour fournir des analyses approfondies et des prédictions précises sur les rêves.",
     viewDetails: "/service-details",
     aosDelay: "300",
   },
   {
     iconName: "flaticon-target",
-    title: "Image Processing",
+    title: "Image AI",
     shortText:
-      "Lorem consectetur ipsum dolor sit amet, adipiscing elit, do eiusmod tempor incididunt sed.",
+      "DALL-E 2, combiné avec Onirix, permet de générer des images uniques à partir de descriptions de rêves.",
     viewDetails: "/service-details",
     aosDelay: "400",
   },
   {
     iconName: "flaticon-choice",
-    title: "Order Management",
+    title: "Simple d'utilisation",
     shortText:
-      "Lorem consectetur ipsum dolor sit amet, adipiscing elit, do eiusmod tempor incididunt sed.",
+      "Onirix : Simplicité d'utilisation pour une analyse de rêves fiable.",
     viewDetails: "/service-details",
     aosDelay: "500",
   },
@@ -46,7 +46,7 @@ const servicesData = [
     iconName: "flaticon-deep-learning",
     title: "Machine Learning",
     shortText:
-      "Lorem consectetur ipsum dolor sit amet, adipiscing elit, do eiusmod tempor incididunt sed.",
+      "Onirix utilise le Machine Learning pour analyser des milliers de rêves et détecter des tendances.",
     viewDetails: "/service-details",
     aosDelay: "600",
   },
@@ -58,11 +58,9 @@ const Services = () => {
       <div className="container">
         <div className="section-title">
           <span>Services</span>
-          <h2>Our Professional Services For You</h2>
+          <h2>Technologies de pointe utilisées dans la conception de l'Intelligence Artificielle Onirix</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure
-            architecto quaerat eaque sapiente accusantium ad ut explicabo
-            consequuntur fuga quidem? Sint.
+          La conception de l'IA Onirix est basée sur une combinaison de technologies de pointe, notamment le Machine Learning, la blockchain et le traitement d'images. Cette synergie technologique nous permet de fournir une analyse précise et fiable des rêves pour aider nos utilisateurs à mieux comprendre les significations cachées de leurs rêves.
           </p>
         </div>
 

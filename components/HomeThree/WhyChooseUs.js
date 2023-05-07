@@ -4,49 +4,49 @@ const whyChooseUsData = [
   {
     no: "01",
     iconName: "flaticon-technical-support",
-    title: "Safe Security",
+    title: "Une sécurité sûre",
     shortText:
-      "Lorem ipsum dolor sit labore amet, consectetur adipiscing elit, sed do eiusmod tempor.",
+      "La sécurité de l'AI Onirix est d'une importance primordiale pour garantir la confidentialité et l'intégrité des données traitées. (AES 256)",
     aosDelay: "100",
   },
   {
     no: "02",
     iconName: "flaticon-shield",
-    title: "Technical Support",
+    title: "Soutien technique",
     shortText:
-      "Lorem ipsum dolor sit labore amet, consectetur adipiscing elit, sed do eiusmod tempor.",
+      "Notre équipe est là pour vous aider. Nous sommes disponibles 24/24, 7 jours sur 7.",
     aosDelay: "200",
   },
   {
     no: "03",
     iconName: "flaticon-support",
-    title: "Live Support",
+    title: "Assistance en ligne",
     shortText:
-      "Lorem ipsum dolor sit labore amet, consectetur adipiscing elit, sed do eiusmod tempor.",
+      "Notre équipe d'assistance en ligne est là pour vous aider sur toutes vos questions et problèmes liés à l'utilisation de l'IA Onirix",
     aosDelay: "300",
   },
   {
     no: "04",
     iconName: "flaticon-technical-support",
-    title: "Free Try",
+    title: "Essai gratuit",
     shortText:
-      "Lorem ipsum dolor sit labore amet, consectetur adipiscing elit, sed do eiusmod tempor.",
+      "Inscrivez-vous dès maintenant et bénéficiez d'un accès complet à toutes les fonctionnalités de notre logiciel d'IA de pointe.",
     aosDelay: "400",
   },
   {
     no: "05",
     iconName: "flaticon-shield",
-    title: "Advanced Tchnology",
+    title: "Technologie avancée",
     shortText:
-      "Lorem ipsum dolor sit labore amet, consectetur adipiscing elit, sed do eiusmod tempor.",
+      "La technologie avancée repousse les limites de ce qui est possible, en utilisant des techniques innovantes pour résoudre des problèmes complexes et pour améliorer la qualité de vie des gens",
     aosDelay: "500",
   },
   {
     no: "06",
     iconName: "flaticon-support",
-    title: "Competitive Pricing",
+    title: "Tarification compétitive",
     shortText:
-      "Lorem ipsum dolor sit labore amet, consectetur adipiscing elit, sed do eiusmod tempor.",
+      "Nous proposons une tarification compétitive pour notre offre de service AI Onirix, avec des prix abordables pour permettre à tout le monde de bénéficier des avantages de notre technologie avancée.",
     aosDelay: "600",
   },
 ];
@@ -57,14 +57,12 @@ const WhyChooseUs = () => {
       <section className="choose-ue-area pt-100 pb-70">
         <div className="container">
           <div className="section-title">
-            <span>Why Choose Us</span>
+            <span>Pourquoi nous choisir ?</span>
             <h2>
-              Our Platform Takes Away The Hard Process Of Creating Your Website
+            La qualité de l'Intelligence Artificielle à votre service
             </h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel nisi
-              rem quo itaque minus dolorem ratione vero, quisquam reiciendis
-              quia atque eos aspernatur.
+            Notre institut met à votre disposition une technologie d'intelligence artificielle de qualité supérieure pour vous aider à comprendre les significations de vos rêves. Grâce à une combinaison de techniques d'apprentissage automatique et de traitement du langage naturel, l'IA Onirix fournit une analyse précise et fiable de vos rêves pour vous aider à mieux comprendre votre avenir.
             </p>
           </div>
 
