@@ -54,13 +54,13 @@ const CaseStudies = () => {
 									</Link>
 								</div>
 
-								<h3>
-									<Link href="/case-studies-details">
-										Avez-vous peur que...
-									</Link>
-								</h3>
-							</div>
-						</SwiperSlide>
+                <h3>
+                  <Link href="/case-studies-details?case=technologie">
+                  La technologie émergente de...
+                  </Link>
+                </h3>
+              </div>
+            </SwiperSlide>
 
 						<SwiperSlide>
 							<div className="case-wrap">
@@ -79,13 +79,11 @@ const CaseStudies = () => {
 									</Link>
 								</div>
 
-								<h3>
-									<Link href="/case-studies-details">
-										IA et Retail : comment...
-									</Link>
-								</h3>
-							</div>
-						</SwiperSlide>
+                <h3>
+                  <Link href="/case-studies-details?case=IA">L’IA générative a déjà...</Link>
+                </h3>
+              </div>
+            </SwiperSlide>
 
 						<SwiperSlide>
 							<div className="case-wrap">
@@ -104,13 +102,11 @@ const CaseStudies = () => {
 									</Link>
 								</div>
 
-								<h3>
-									<Link href="/case-studies-details">
-										Onirix fait preuve de plus...
-									</Link>
-								</h3>
-							</div>
-						</SwiperSlide>
+                <h3>
+                  <Link href="/case-studies-details?case=tuer">Une IA « qui essaie de...</Link>
+                </h3>
+              </div>
+            </SwiperSlide>
 
 						<SwiperSlide>
 							<div className="case-wrap">
@@ -129,18 +125,18 @@ const CaseStudies = () => {
 									</Link>
 								</div>
 
-								<h3>
-									<Link href="/case-studies-details">
-										L’IA générative a déjà...
-									</Link>
-								</h3>
-							</div>
-						</SwiperSlide>
-					</Swiper>
-				</div>
-			</section>
-		</>
-	);
+                <h3>
+                  <Link href="/case-studies-details?case=gagner">
+                  Elle a gagné 2 prix avec...
+                  </Link>
+                </h3>
+              </div>
+            </SwiperSlide>
+          </Swiper>
+        </div>
+      </section>
+    </>
+  );
 };
 
 export default CaseStudies;
