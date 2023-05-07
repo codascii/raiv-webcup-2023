@@ -56,7 +56,7 @@ const ServiceDetailsContent = ({ service }) => {
 									</div>
 								</div>
 
-								<AskQuestionForm />
+								{/* <AskQuestionForm /> */}
 							</div>
 						</div>
 
